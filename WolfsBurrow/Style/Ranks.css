@@ -26,13 +26,6 @@
 	color: hsl(200, 100%, 50%);
 }
 /* --[MENTION]-- */
-#chat .mention.role-you {
-	background: linear-gradient(hsla(200, 100%, 20%, 0.4), hsla(200, 100%, 11%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(200, 100%, 30%) !important;
-	border: none !important;
-}
-#chat .mention.is-you .name,
 #chat .mention.is-you .timestamp {
 	color: hsl(200, 100%, 40%) !important;
 }
@@ -45,13 +38,6 @@
 	color: hsl(80, 60%, 50%);
 }
 /* --[MENTION]-- */
-#chat .mention.role-friend {
-	background: linear-gradient(hsla(80, 60%, 20%, 0.4), hsla(80, 50%, 13%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(80, 50%, 30%) !important;
-	border: none !important;
-}
-#chat .mention.role-friend .name,
 #chat .mention.role-friend .timestamp {
 	color: hsl(80, 60%, 60%) !important;
 }
@@ -73,12 +59,6 @@
     color: #8F96A3 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-silver-subscriber {
-	background: linear-gradient(hsla(220, 10%, 30%, 0.4), hsla(220, 10%, 20%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(220, 10%, 50%) !important;
-}
-#chat .mention.role-silver-subscriber .name,
 #chat .mention.role-silver-subscriber .timestamp {
 	color: hsl(220, 10%, 60%) !important;
 }
@@ -100,12 +80,6 @@
     color: #979140 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-subscriber {
-	background: linear-gradient(hsla(56, 58%, 42%, 0.4), hsla(56, 58%, 52%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(56, 58%, 62%) !important;
-}
-#chat .mention.role-subscriber .name,
 #chat .mention.role-subscriber .timestamp {
 	color: hsl(56, 58%, 72%) !important;
 }
@@ -122,12 +96,6 @@
 	color: #206200 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-dj {
-	background: linear-gradient(hsla(100, 100%, 19%, 0.4), hsla(100, 100%, 29%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, .2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(100, 50%, 39%) !important;
-}
-#chat .mention.role-dj .name,
 #chat .mention.role-dj .timestamp {
 	color: hsl(100, 100%, 49%) !important;
 }
@@ -144,12 +112,6 @@
 	color: #4F7B3A !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-bouncer {
-	background: linear-gradient(hsla(101, 53%, 35%, 0.4), hsla(101, 53%, 45%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 53%, 55%) !important;
-}
-#chat .mention.role-bouncer .name,
 #chat .mention.role-bouncer .timestamp {
 	color: #4F7B3A !important;
 }/*
@@ -165,12 +127,6 @@
 	color: #70955F !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-manager {
-	background: linear-gradient(hsla(101, 36%, 48%, 0.4), hsla(101, 36%, 58%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 36%, 68%) !important;
-}
-#chat .mention.role-manager .name,
 #chat .mention.role-manager .timestamp {
 	color: #70955F !important;
 }
@@ -188,12 +144,6 @@
 	color: #8FC078 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-cohost {
-	background: linear-gradient(hsla(101, 38%, 61%, 0.4), hsla(101, 38%, 71%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 38%, 81%) !important;
-}
-#chat .mention.role-cohost .name,
 #chat .mention.role-cohost .timestamp {
 	color: hsl(101, 38%, 91%) !important;
 }
@@ -210,12 +160,6 @@
 	color: #8FC078 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-host {
-	background: linear-gradient(hsla(101, 38%, 61%, 0.4), hsla(101, 38%, 71%, 0.8))),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 38%, 81%) !important;
-}
-#chat .mention.role-host .name,
 #chat .mention.role-host .timestamp {
 	color: hsl(101, 38%, 91%) !important;
 }
@@ -232,12 +176,6 @@
 	color: #40975B !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-promoter {
-	background: linear-gradient(hsla(139, 84%, 42%, 0.4), hsla(139, 84%, 52%, 0.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(139, 84%, 62%) !important;
-}
-#chat .mention.role-promoter .name,
 #chat .mention.role-promoter .timestamp {
 	color: #40975B !important;
 }
@@ -254,12 +192,6 @@
 	color: #977240 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-plot {
-	background: linear-gradient(hsla(34, 58%, 42%, 0.4), hsla(34, 58%, 52%, 0.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(34, 58%, 62%) !important;
-}
-#chat .mention.role-plot .name,
 #chat .mention.role-plot .timestamp {
 	color: #977240 !important;
 }
@@ -276,12 +208,6 @@
 	color: #974040 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-sitemod {
-	background: linear-gradient(hsla(0, 58%, 42%, 0.4), hsla(0, 58%, 52%, 0.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(0, 58%, 62%) !important;
-}
-#chat .mention.role-sitemod .name,
 #chat .mention.role-sitemod .timestamp {
 	color: #974040 !important;
 }
@@ -298,12 +224,6 @@
 	color: hsl(75,90%,42%) !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-ambassador {
-	background: linear-gradient(hsla(101, 58%, 69%, 0.4), hsla(101, 58%, 79%, 0.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 58%, 89%) !important;
-}
-#chat .mention.role-ambassador .name,
 #chat .mention.role-ambassador .timestamp {
 	color: hsl(101, 58%, 99%) !important;
 }
@@ -320,12 +240,6 @@
 	color: #52FF00 !important;
 }
 /* --[MENTION]-- */
-#chat .mention.role-admin {
-	background: linear-gradient(hsla(101, 100%, 50%, 0.4), hsla(101, 100%, 60%, 0.8)),
-	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(101, 100%, 70%) !important;
-}
-#chat .mention.role-admin .name,
 #chat .mention.role-admin .timestamp {
 	color: #52FF00 !important;
 }
