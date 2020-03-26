@@ -32,18 +32,18 @@
     "images": {
         "background": null,
         "playback": null,
-        "admin": "https://RepiSvK.github.io/WB/Icons/AdminWolf.png",
-        "ambassador": "https://RepiSvK.github.io/WB/Icons/AmbassadorWolf.png",
-        "sitemod": "https://RepiSvK.github.io/WB/Icons/SitemodWolf.png",
-        "promoter": "https://RepiSvK.github.io/WB/Icons/PromoterWolf.png",
-        "plot": "https://RepiSvK.github.io/WB/Icons/PlotWolf.png", 
-        "host": "https://RepiSvK.github.io/WB/Icons/HostWolf.png",
-        "cohost": "https://RepiSvK.github.io/WB/Icons/CohostWolf.png",
-        "manager": "https://RepiSvK.github.io/WB/Icons/ManagerWolf.png",
-        "bouncer": "https://RepiSvK.github.io/WB/Icons/BouncerWolf.png",
-        "rdj": "https://RepiSvK.github.io/WB/Icons/ResidentWolf.png",
-        "subscriber": "https://RepiSvK.github.io/WB/Icons/GoldsubscriberWolf.png",
-        "silversubscriber": "https://RepiSvK.github.io/WB/Icons/SilversubscriberWolf.png"
+        "admin": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AdminWolf.png",
+        "ambassador": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AmbassadorWolf.png",
+        "sitemod": "https://PsychousSvK.github.io/WolfsBurrow/Icons/SitemodWolf.png",
+        "promoter": "https://PsychousSvK.github.io/WolfsBurrow/Icons/PromoterWolf.png",
+        "plot": "https://PsychousSvK.github.io/WolfsBurrow/Icons/PlotWolf.png", 
+        "host": "https://PsychousSvK.github.io/WolfsBurrow/Icons/HostWolf.png",
+        "cohost": "https://PsychousSvK.github.io/WolfsBurrow/Icons/CohostWolf.png",
+        "manager": "https://PsychousSvK.github.io/WolfsBurrow/Icons/ManagerWolf.png",
+        "bouncer": "https://PsychousSvK.github.io/WolfsBurrow/Icons/BouncerWolf.png",
+        "rdj": "https://PsychousSvK.github.io/WolfsBurrow/Icons/ResidentWolf.png",
+        "subscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/GoldsubscriberWolf.png",
+        "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/SilversubscriberWolf.png"
     },
     "emotes": {
     	"emote_name": null
