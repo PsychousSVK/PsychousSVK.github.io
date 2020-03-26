@@ -2,7 +2,7 @@
     "room": "Wolf's burrow",
     "author": "PsychoušSVK",
     "icon": null,
-    "css": "",
+    "css": "https://PsychousSvK.github.io/WolfsBurrow/Style/Style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
