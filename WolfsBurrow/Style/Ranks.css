@@ -6,13 +6,6 @@
 #chat .cm.mention span {
 	color: hsl(60, 70%, 50%);
 }
-#chat .mention {
-	background: linear-gradient(hsla(60, 80%, 30%, 0.4), hsla(60, 80%, 20%, 0.8)),
-	linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(0, 0%, 100%, 0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(60, 30%, 50%) !important;
-	border: none !important;
-}
-#chat .cm.mention .name,
 #chat .cm.mention .timestamp {
 	color: hsl(60, 80%, 50%);
 }
