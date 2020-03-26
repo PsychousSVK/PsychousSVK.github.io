@@ -225,7 +225,7 @@
  └————————————————————┘
 */
 .icon-chat-promoter {
-	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Ranks.png) -16px !important;
+	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PromoterWolf.png) -16px !important;
 }
 .icon-chat-promoter ~ span,
 #chat .role-promoter .un {
@@ -247,7 +247,7 @@
  └————————————————————┘
 */
 .icon-chat-plot {
-	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Ranks.png) -16px !important;
+	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PlotWolf.png) -16px !important;
 }
 .icon-chat-plot ~ span,
 #chat .role-plot .un {
@@ -269,7 +269,7 @@
  └————————————————————┘
 */
 .icon-chat-sitemod {
-	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Ranks.png) -16px !important;
+	background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/SitemodWolf.png) -16px !important;
 }
 .icon-chat-sitemod ~ span,
 #chat .role-sitemod .un {
