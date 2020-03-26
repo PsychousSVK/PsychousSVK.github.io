@@ -1477,9 +1477,13 @@ li.community__player-item.volume {
     justify-content: center;
     align-items: center;
     padding: 12px 10px 2px 2px;
-    border-radius: 5px;
-    background-color: #1166EE;
+    border-radius: 2px;
+    background-color: #000000;
     margin-right: 0;
     width: 155px;
     position: relative;
+}
+
+.user-content.profile .points i {
+    top: 0px;
 }
