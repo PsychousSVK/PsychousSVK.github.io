@@ -1473,26 +1473,5 @@ li.community__player-item.volume {
 }
 
 #user-view .user-content.profile .points .pp .pp-points {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 10px 2px 2px;
-    border-radius: 2px;
-    background-color: #000000;
-    margin-right: 0;
-    width: 155px;
-    position: relative;
-}
-
-.user-content.profile .points i {
-    top: 0px;
-}
-
-#user-view .user-content.profile .points .pp .pp-points .label {
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    top: 7px;
-    left: 37px;
-    color: #FFFFFF !important;
+    visibility: hidden;
 }
