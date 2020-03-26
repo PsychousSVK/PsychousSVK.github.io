@@ -782,7 +782,7 @@
 
 .community .left-side-wrapper .community__top {
     background: linear-gradient(45deg,rgba(20, 30, 40, 0.75) 30%,rgba(92, 151, 64, 0.5));
-    box-shadow: 0 1px 5px #0000FF,inset 0 -1px #5C9740,inset 0 6px 50px 5px #000
+    box-shadow: 0 1px 5px #5C9740,inset 0 -1px #5C9740,inset 0 6px 50px 5px #000
 }
 
 .community .left-side-wrapper .community__top .community__top-right>div>div {
@@ -810,7 +810,7 @@
     position: relative;
     width: 27px;
     transition: all .3s linear;
-    background: linear-gradient(28.8deg,#0000FF 50%,transparent 50%,transparent),linear-gradient(270deg,#0000FF 50%,#000 50%,#000)
+    background: linear-gradient(28.8deg,#5C9740 50%,transparent 50%,transparent),linear-gradient(270deg,#5C9740 50%,#000 50%,#000)
 }
 
 .circular-progress::before {
@@ -1059,7 +1059,7 @@
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.mention {
     border: 0;
-    box-shadow: 0 1px 0 0 #0000FF,0 -1px 0 0 #5C9740;
+    box-shadow: 0 1px 0 0 #5C9740,0 -1px 0 0 #5C9740;
     background: linear-gradient(340deg,rgba(92, 151, 64, 0.75),transparent 80%)
 }
 
@@ -1173,11 +1173,11 @@
 }
 
 .user-level-dropdown .user-level-dropdown__level-text {
-    color: #0000FF !important
+    color: #5C9740 !important
 }
 
 .user-profile-dropdown .user-level-dropdown__level-text {
-    color: #0000FF !important
+    color: #5C9740 !important
 }
 
 .user-level-dropdown .user-level-dropdown__level-number i {
