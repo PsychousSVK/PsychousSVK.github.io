@@ -1036,17 +1036,17 @@
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .search:focus-within {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(92, 151, 64, 0.75),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-header {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.5),rgba(92, 151, 64, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.5),rgba(92, 151, 64, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
@@ -1448,27 +1448,27 @@ li.community__player-item.volume {
 }
 
 .community #user-lists {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #header-panel-bar.right-meta {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community #waitlist {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #rcs-menu {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
