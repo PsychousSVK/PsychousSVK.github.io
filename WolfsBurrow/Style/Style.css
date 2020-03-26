@@ -356,7 +356,7 @@
 }
 
 #dashboard #dashboard-search:focus-within {
-    background: rgba(20, 30, 40,.80);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
@@ -392,7 +392,7 @@
 }
 
 #dashboard .search.focused {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
@@ -424,7 +424,7 @@
 
 .jspPane .list .row {
     box-shadow: inset 0 0 0 1px rgba(64, 68, 151, 0.5);
-    background: rgba(20, 30, 40, 0.8) !important
+    background: rgba(20, 30, 40, 0.25) !important
 }
 
 .jspPane .list .row .buttons .positive {
@@ -492,7 +492,7 @@
 }
 
 #dialog-container .dialog .button.cancel {
-    background: rgba (20, 30, 40, 0.8)
+    background: rgba (20, 30, 40, 0.25)
 }
 
 #playlist-panel #search #filter-bar {
@@ -524,27 +524,27 @@
 }
 
 #playlist-panel #search #filter-bar.focused {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #167DE3 !important
 }
 
 #playlist-panel #search #search-bar.focused {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
 #playlist-panel #search #search-menu.focused {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
 #user-view #the-user-profile .blurb .box+input {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
 #user-view .search-box .search.focused {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
@@ -781,7 +781,7 @@
 }
 
 .community .left-side-wrapper .community__top {
-    background: linear-gradient(45deg,rgba(20, 30, 40, 0.75) 30%,rgba(92, 151, 64, 0.5));
+    background: linear-gradient(45deg,rgba(20, 30, 40, 0.25) 30%,rgba(92, 151, 64, 0.5));
     box-shadow: 0 1px 5px #5C9740,inset 0 -1px #5C9740,inset 0 6px 50px 5px #000
 }
 
@@ -904,7 +904,7 @@
 }
 
 .community .left-side-wrapper .community__bottom {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
@@ -997,12 +997,12 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background:focus-within {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background:focus-within {
-    background: rgba(20, 30, 40, 0.8);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
@@ -1036,17 +1036,17 @@
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .search:focus-within {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-header {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #5C9740,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
@@ -1144,16 +1144,16 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input:focus-within {
-    background: rgba(20, 30, 40, 0.80);
+    background: rgba(20, 30, 40, 0.25);
     box-shadow: inset 0 0 0 1px #5C9740 !important
 }
 
 .user-level-dropdown:after {
-    border-bottom-color: rgba(20, 30, 40, 0.8)
+    border-bottom-color: rgba(20, 30, 40, 0.25)
 }
 
 .user-profile-dropdown:after {
-    border-bottom-color: rgba(20, 30, 40, 0.8)
+    border-bottom-color: rgba(20, 30, 40, 0.25)
 }
 
 .user-level-dropdown:before {
@@ -1165,11 +1165,11 @@
 }
 
 .user-level-dropdown .list-unstyled .user-profile-dropdown__item {
-    border-bottom-color: rgba(79, 97, 120, 0.20) 
+    border-bottom-color: rgba(79, 97, 120, 0.25) 
 }
 
 .user-profile-dropdown .list-unstyled .user-profile-dropdown__item {
-    border-bottom-color: rgba(79, 97, 120, 0.20) 
+    border-bottom-color: rgba(79, 97, 120, 0.25) 
 }
 
 .user-level-dropdown .user-level-dropdown__level-text {
@@ -1448,27 +1448,27 @@ li.community__player-item.volume {
 }
 
 .community #user-lists {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #header-panel-bar.right-meta {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community #waitlist {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #rcs-menu {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.75),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.25),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
