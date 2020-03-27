@@ -1475,3 +1475,7 @@ li.community__player-item.volume {
 #user-view .user-content.profile .points .pp .pp-points {
     visibility: hidden;
 }
+
+#chat .badge-box i {
+    transform: scale(1);
+}
