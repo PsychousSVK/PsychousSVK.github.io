@@ -1491,3 +1491,7 @@ li.community__player-item.volume {
     box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
     cursor: pointer;
 }
+
+.community .left-side-wrapper .left-side-wrapper-inner {
+    background-image: url("https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrowPlayback.png") !important
+}
