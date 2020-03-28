@@ -31,7 +31,7 @@
     },
     "images": {
         "background": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrow.jpg",
-        "playback": null,
+        "playback": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrowPlayback.png",
         "admin": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AdminWolf.png",
         "ambassador": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AmbassadorWolf.png",
         "sitemod": "https://PsychousSvK.github.io/WolfsBurrow/Icons/SitemodWolf.png",
