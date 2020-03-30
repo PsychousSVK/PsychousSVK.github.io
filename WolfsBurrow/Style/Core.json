@@ -32,18 +32,18 @@
     "images": {
         "background": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrow.png",
         "playback": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrowPlayback.png",
-        "admin": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AdminWolf.png",
-        "ambassador": "https://PsychousSvK.github.io/WolfsBurrow/Icons/AmbassadorWolf.png",
-        "sitemod": "https://PsychousSvK.github.io/WolfsBurrow/Icons/SitemodWolf.png",
-        "promoter": "https://PsychousSvK.github.io/WolfsBurrow/Icons/PromoterWolf.png",
-        "plot": "https://PsychousSvK.github.io/WolfsBurrow/Icons/PlotWolf.png", 
-        "host": "https://PsychousSvK.github.io/WolfsBurrow/Icons/HostWolf.png",
-        "cohost": "https://PsychousSvK.github.io/WolfsBurrow/Icons/CohostWolf.png",
-        "manager": "https://PsychousSvK.github.io/WolfsBurrow/Icons/ManagerWolf.png",
-        "bouncer": "https://PsychousSvK.github.io/WolfsBurrow/Icons/BouncerWolf.png",
-        "rdj": "https://PsychousSvK.github.io/WolfsBurrow/Icons/ResidentWolf.png",
-        "subscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/GoldsubscriberWolf.png",
-        "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/SilversubscriberWolf.png"
+        "admin": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Admin.png",
+        "ambassador": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Ambassador.png",
+        "sitemod": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Sitemoderator.png",
+        "promoter": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Promoter.png",
+        "plot": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Plot.png", 
+        "host": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Host.png",
+        "cohost": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Cohost.png",
+        "manager": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Manager.png",
+        "bouncer": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Bouncer.png",
+        "rdj": "https://PsychousSvK.github.io/WolfsBurrow/Icons/ResidentDJ.png",
+        "subscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Subscriber.png",
+        "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Silversubscriber.png"
     },
     "emotes": {
     	"emote_name": null
