@@ -578,8 +578,8 @@
 }
 
 .jspPane .cell:hover>.meta {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.75) 249%) !important;
-    border: 1px solid rgba(92, 151, 64, 0.75)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.25) 249%) !important;
+    border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
 #dashboard .search.focused {
@@ -791,13 +791,13 @@
 }
 
 #user-view #user-menu .item:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.75) 250%) !important;
-    border: 1px solid rgba(92, 151, 64, 0.75)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
+    border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
 #user-view .dropdown dd .row:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.75) 250%) !important;
-    border: 1px solid rgba(92, 151, 64, 0.75)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
+    border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
 #user-view .dropdown dt {
@@ -849,7 +849,7 @@
 }
 
 #playlist-panel #media-panel .actions:hover {
-    box-shadow: inset 0 0 0 3px rgba(92, 151, 64, 0.75)
+    box-shadow: inset 0 0 0 3px rgba(92, 151, 64, 0.25)
 }
 
 #playlist-panel #search #search-menu .selected {
@@ -1038,7 +1038,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .community__left-nav .nav-left__item:hover {
-    background: rgba(92, 151, 64, 0.75)
+    background: rgba(92, 151, 64, 0.25)
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .community__left-nav .nav-left__item.selected {
@@ -1162,11 +1162,11 @@
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .rsrow:hover {
-    background: linear-gradient(to right,rgba(92, 151, 64, 0.75),transparent) !important
+    background: linear-gradient(to right,rgba(92, 151, 64, 0.25),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .list .user:hover {
-    background: linear-gradient(to right,rgba(92, 151, 64, 0.75),transparent) !important
+    background: linear-gradient(to right,rgba(92, 151, 64, 0.25),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
@@ -1198,7 +1198,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar .friends .row:not(.is-offline):hover {
-    background: linear-gradient(to right,rgba(92, 151, 64, 0.75),transparent) !important
+    background: linear-gradient(to right,rgba(92, 151, 64, 0.25),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .button.selected {
@@ -1216,8 +1216,8 @@
 }
 
 .community .right-side-wrapper .community__right-bar #waitlist .list .user:hover {
-    background: linear-gradient(to right,rgba(92, 151, 64, 0.75),transparent) !important;
-    border-bottom-color: rgba(92, 151, 64, 0.75)
+    background: linear-gradient(to right,rgba(92, 151, 64, 0.25),transparent) !important;
+    border-bottom-color: rgba(92, 151, 64, 0.25)
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .search {
