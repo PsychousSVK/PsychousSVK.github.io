@@ -124,6 +124,148 @@
     color: hsl(80, 60%, 60%) !important;
 }
 
+/*
+ ┌————————————————————┐
+ │  Role: SILVERSUB   │
+ └————————————————————┘
+*/
+#user-panel:not(.is-none) .user > .icon-chat-silversubscriber + .name {
+    color: #8F96A3 !important;
+}
+
+#user-lists .user > .icon-chat-silversubscriber + .name {
+    color: #8F96A3 !important;
+}
+
+.message.from-silversubscriber > .from {
+    color: #8F96A3 !important;
+}
+
+.emote.from-silversubscriber > .from {
+    color: #8F96A3 !important;
+}
+
+.mention.from-silversubscriber > .from {
+    color: #8F96A3 !important;
+}
+
+.icon-chat-silversubscriber {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;   
+}
+
+.message.from-silversubscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;    
+}
+
+.emote.from-silversubscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;    
+}
+
+.mention.from-silversubscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;
+}
+
+#user-rollover .meta.silversubscriber .status i {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-silver-subscriber {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/Silversubscriber.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-silver-subscriber ~ .text > .name {
+    color: #8F96A3 !important;
+}
+
+.icon-chat-silver-subscriber ~ .from {
+    color: #8F96A3 !important;
+}
+
+.icon-chat-silver-subscriber ~ span {
+    color: #8F96A3 !important;
+}
+
+#user-rollover .meta.silversubscriber .status span {
+    color: #8F96A3 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: GOLDSUB    │
+ └————————————————————┘
+*/
+#user-panel:not(.is-none) .user > .icon-chat-subscriber + .name {
+    color: #979140 !important;
+}
+
+#user-lists .user > .icon-chat-subscriber + .name {
+    color: #979140 !important;
+}
+
+.message.from-subscriber > .from {
+    color: #979140 !important;
+}
+
+.emote.from-subscriber > .from {
+    color: #979140 !important;
+}
+
+.mention.from-subscriber > .from {
+    color: #979140 !important;
+}
+
+.icon-chat-subscriber {
+    background-image: url("https://PsychousSvK.github.io/WolfsBurrow/Icons/Subscriber.png") !important;
+    background-position: 0 0;   
+}
+
+.message.from-subscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/subscriber.png") !important;
+    background-position: 0 0;    
+}
+
+.emote.from-subscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/subscriber.png") !important;
+    background-position: 0 0;    
+}
+
+.mention.from-subscriber > .icon {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/subscriber.png") !important;
+    background-position: 0 0;
+}
+
+#user-rollover .meta.subscriber .status i {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/subscriber.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-subscriber {
+    background-image: url("https://psychoussvk.github.io/WolfsBurrow/Icons/subscriber.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-subscriber ~ .text > .name {
+    color: #979140 !important;
+}
+
+.icon-chat-subscriber ~ .from {
+    color: #979140 !important;
+}
+
+.icon-chat-subscriber ~ span {
+    color: #979140 !important;
+}
+
+#user-rollover .meta.subscriber .status span {
+    color: #979140 !important;
+}
+
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 @-webkit-keyframes fadeIn {
     0% { opacity:0 }
