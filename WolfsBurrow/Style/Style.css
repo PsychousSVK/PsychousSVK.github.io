@@ -1,3 +1,203 @@
+/*
+ ┌————————————————————┐
+ │    Users-list      │
+ └————————————————————┘
+ Needs to be in this order &
+ separated from roles to
+ maintain correct priorities */
+/* Host */
+#user-lists .group.host {
+    color: #8FC078;
+    background: linear-gradient(to right, hsla(101, 38%, 61%, 0.25), hsla(101, 38%, 71%, 0.5)) !important;
+    top: 1px;
+}
+
+/* Only make the First user the host to have as many co-hosts as you want */
+#user-lists .group.host ~ .user:nth-child(2) .name {
+	color: #8FC078;
+}
+
+/* Co-hosts */
+#user-lists .group.host ~ .user .name {
+    color: #8FC078;
+}
+
+/* Managers */
+#user-lists .group.manager {
+    color: #5588FF;
+    background: linear-gradient(to right, hsla(101, 36%, 48%, 0.25), hsla(101, 36%, 58%, 0.5)) !important;
+}
+
+#user-lists .group.manager ~ .user .name {
+    color: #5588FF;
+}
+
+/* Bouncers */
+#user-lists .group.bouncer {
+    color: #4F7B3A;
+    background: linear-gradient(to right, hsla(101, 53%, 35%, 0.25), hsla(101, 53%, 45%, 0.5)) !important;
+}
+
+#user-lists .group.bouncer ~ .user .name {
+    color: #4F7B3A;
+}
+
+/* DJs */
+#user-lists .group.dj {
+    color: #206200;
+    background: linear-gradient(to right, hsla(100, 100%, 19%, 0.25), hsla(248, 100%, 29%, 0.5)) !important;
+}
+
+#user-lists .group.dj ~ .user .name {
+    color: #206200;
+}
+
+/*
+ ┌————————————————————┐
+ │   Miscellaneous    │
+ └————————————————————┘
+*/
+#chat .cm.mention .msg {
+    /*fix RCS*/
+    background: none !important;
+}
+
+#user-lists .group {
+    border: none !important;
+    box-shadow: 0 0 1px 1px;
+}
+
+#waitlist .list .user .name i {
+    display: block; /* sub is display:none wtf plug ? */
+}
+
+.community__right-bar .friends .list .row.is-offline {
+    filter: saturate(.5);
+} 
+
+┌————————————————————┐
+│     Role: NONE     │
+└————————————————————┘
+ --[MENTION]-- */
+#chat .cm.mention span {
+    color: hsl(60, 70%, 50%);
+}
+
+#chat .cm.mention .name{
+    color: hsl(60, 80%, 50%);
+}
+
+#chat .cm.mention .timestamp {
+    color: hsl(60, 80%, 50%);
+}
+/*
+ ┌————————————————————┐
+ │     Role: YOU      │
+ └————————————————————┘
+*/
+.is-you .name,
+#chat .cm.role-you .un {
+    color: hsl(200, 100%, 50%);
+}
+
+#chat .mention.is-you .name{
+    color: hsl(200, 100%, 40%) !important;
+}
+
+#chat .mention.is-you .timestamp {
+    color: hsl(200, 100%, 40%) !important;
+}
+/*
+ ┌————————————————————┐
+ │   Role: FRIEND     │
+ └————————————————————┘
+*/
+#chat .cm.role-friend .un {
+    color: hsl(80, 60%, 50%);
+}
+
+#chat .mention.role-friend .name {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+#chat .mention.role-friend .timestamp {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   gRole: SITEMOD   │
+ └————————————————————┘
+*/
+.icon-chat-sitemod {
+    background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Sitemoderator.png) -16px !important;
+}
+.icon-chat-sitemod ~ span {
+   color: #974040 !important;
+}
+
+#chat .role-sitemod .un {
+   color: #974040 !important;
+}
+
+#chat .mention.role-sitemod .name{
+     color: #974040 !important;
+}
+
+#chat .mention.role-sitemod .timestamp {
+    color: #974040 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: PROMOTER   │
+ └————————————————————┘
+*/
+.icon-chat-promoter {
+    background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Promoter.png) -16px !important;
+}
+
+.icon-chat-promoter ~ span{
+    color: #40975B !important;
+}
+
+#chat .role-promoter .un {
+    color: #40975B !important;
+}
+
+#chat .mention.role-promoter .name{
+    color: #40975B !important;
+}
+
+#chat .mention.role-promoter .timestamp {
+    color: #40975B !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    gRole: PLOT     │
+ └————————————————————┘
+*/
+.icon-chat-plot {
+    background: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/Plot.png) -16px !important;
+}
+
+.icon-chat-plot ~ span{
+    color: #977240 !important;
+}
+
+#chat .role-plot .un {
+    color: #977240 !important;
+}
+
+#chat .mention.role-plot .name{
+    color: #977240 !important;
+}
+
+#chat .mention.role-plot .timestamp {
+    color: #977240 !important;
+}
+
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 @-webkit-keyframes fadeIn {
     0% { opacity:0 }
