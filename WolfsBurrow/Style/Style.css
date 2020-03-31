@@ -289,9 +289,6 @@
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 .icon {
     background-image: url('https://PsychousSvK.github.io/WolfsBurrow/Icons/Icons.png');
-    position: absolute;
-    width: 30px;
-    height: 30px;
 }
 
 .sr-only {
