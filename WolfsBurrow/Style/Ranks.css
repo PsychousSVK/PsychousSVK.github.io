@@ -386,12 +386,12 @@
 
 /* Managers */
 #user-lists .group.manager {
-    color: #5588FF;
+    color: #70955F;
     background: linear-gradient(to right, hsla(101, 36%, 48%, 0.25), hsla(101, 36%, 58%, 0.5)) !important;
 }
 
 #user-lists .group.manager ~ .user .name {
-    color: #5588FF;
+    color: #70955F;
 }
 
 /* Bouncers */
