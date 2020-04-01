@@ -45,11 +45,8 @@
     left:0
 }
 
-.user-content.profile .meta .badge-box {
-    position: relative;
-    display: inline-block;
-    margin-right: 4px;
-    background-image:url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PsychousSvK.jpg);
+#user-view .bdg {
+    background-image: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PsychousSvK.jpg);
 }
-
+   
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
