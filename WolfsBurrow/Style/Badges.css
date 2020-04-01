@@ -26,6 +26,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 5px;
 }
 
 #chat-messages .id-40796598 .badge-box:hover {
@@ -42,7 +43,8 @@
     background-position:initial;
     position:absolute;
     top:0;
-    left:0
+    left:0;
+    border-radius: 5px;
 }
 
 #user-view .bdg {
@@ -53,7 +55,8 @@
     background-position:initial;
     position:absolute;
     top:0;
-    left:0
+    left:0;
+    border-radius: 5px;
 }
    
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
