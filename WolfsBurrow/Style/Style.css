@@ -1511,3 +1511,7 @@ li.community__player-item.volume {
     width: 15px;
     height: 15px;
 }
+
+#rcs-style-anchor-3 {
+    visibility: hidden;
+}
