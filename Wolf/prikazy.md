@@ -112,13 +112,9 @@ Uživatel
 |!facka | @jméno | Dá uživateli facku. |
 |!hug | @jméno | Virtuálně obejme uživatele. |
 |!8ball/!ask | otázka | Zeptá se bota na otázku typu ano či ne. Bot odpovídá v náhodných variantách. |
-|!afk | | Napíše o uživateli, že je AFK. |
-|!zpet | | Napíše o uživateli, že se vrátil zpět. |
-|!ego | | Zvýšuje ego uživateli. |
 |!ping | | Pong! |
 |!bacon | | Bacon! |
 |!hledat | @jméno | Zjistí dobu nepřítomnosti uživatele v místnosti. Určené k využití na uživatelé, kteří v místnosti nejsou. |
-|!update | | Napíše stránku s aktualizacemi bota. |
 |!ba | | Vysvětlí v kostce rank Brand Ambassadora. |
 |!emoji | | Dá link na stránku s emotikony. |
 |!fb | | Napíše link na naší Facebookové stránky. |
