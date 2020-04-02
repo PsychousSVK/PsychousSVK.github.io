@@ -245,12 +245,12 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.4',
+        version: '2.12.6',
         status: false,
         name: 'WolfBot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
-        cmdLink: 'http://git.io/245Ppg',
+        cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/Wolf/prikazy.md',
         chatLink: 'https://psychoussvk.github.io/Wolf/lang/czech.json',
         chat: null,
         loadChat: loadChat,
@@ -284,7 +284,7 @@
             historySkip: false,
             timeGuard: true,
             strictTimeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 8,
             autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -303,7 +303,7 @@
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
             motdEnabled: true,
-            motdInterval: 55,
+            motdInterval: 15,
             motd: 'Připojte se k naší vlčí skupiny: https://discord.gg/WMnTvZq ',
             filterChat: false,
             etaRestriction: false,
@@ -316,7 +316,7 @@
             website: null,
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: '!',
             blacklists: {
                 NSFW: 'https://raw.githack.com/basicBot/custom/master/blacklists/NSFWlist.json',
