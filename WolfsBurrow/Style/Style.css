@@ -418,7 +418,8 @@
 }
 
 #history-panel {
-    background-color: rgba(3, 5, 6, 0.5);
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.25),rgba(92, 151, 64, 0.5),rgba(20, 30, 40, 0.5));
+    box-shadow: 0 -1px 0 #5C9740, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .jspPane .list .row {
