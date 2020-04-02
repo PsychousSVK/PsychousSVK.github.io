@@ -418,7 +418,7 @@
 }
 
 #history-panel {
-    background: #974640 !important
+    background-color: rgba(3, 5, 6, 0.5);
 }
 
 .jspPane .list .row {
