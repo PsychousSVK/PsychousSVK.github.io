@@ -304,7 +304,7 @@
             afkRankCheck: 'ambassador',
             motdEnabled: true,
             motdInterval: 15,
-            motd: 'Připojte se k naší vlčí skupiny: https://discord.gg/WMnTvZq ',
+            motd: 'Připojte se k naší vlčí skupině: https://discord.gg/WMnTvZq',
             filterChat: false,
             etaRestriction: false,
             welcome: true,
