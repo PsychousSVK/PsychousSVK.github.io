@@ -514,7 +514,7 @@
 }
 
 #user-view {
-    background: linear-gradient(0deg, #000, #1D2B39)
+    background: linear-gradient(300deg,rgba(40, 54, 34, 0.8),#000) !important;
 }
 
 #user-view .search-box .search {
@@ -1197,11 +1197,11 @@
 }
 
 .user-level-dropdown .rs-flat-table {
-    background:linear-gradient(90deg,transparent,rgba(92, 151, 64, 0.75),transparent)
+    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.25),transparent)
 }
 
 .user-profile-dropdown .rs-flat-table {
-    background:linear-gradient(90deg,transparent,rgba(92, 151, 64, 0.75),transparent)
+    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.25),transparent)
 }
 
 .user-level-dropdown .user-level-dropdown__bottom {
