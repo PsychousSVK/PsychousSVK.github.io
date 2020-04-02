@@ -775,24 +775,20 @@
 }
 
 .community .community__name {
+    color: #404497;
     text-shadow: 0 0 5px #000
-    display: inline-block;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   border: none;
-   font: normal 18px/normal "Warnes", Helvetica, sans-serif;
-   color: rgba(255,255,255,1);
-   text-decoration: normal;
-   -o-text-overflow: clip;
-   text-overflow: clip;
-   white-space: pre;
-   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #404497  , 0 0 70px #404497  , 0 0 80px #404497  , 0 0 100px #404497 ;
-   -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
+
+font-size: 18px;
+    height: 100%;
+    padding-top: 0;
+    color: #00c6ff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 179px;
+    vertical-align: middle;
 
 .community .left-side-wrapper .community__top {
     background: linear-gradient(45deg,rgba(20, 30, 40, 0.25) 30%,rgba(92, 151, 64, 0.5));
