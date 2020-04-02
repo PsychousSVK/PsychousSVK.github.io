@@ -324,7 +324,7 @@
     "website": "/me Prosím navštivte naše webové stránky: %%LINK%%",
     "youtube": "/me [%%NAME%%] Dejte nám odběr na youtube: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
-    "prikazy": "/me Seznam Wolf příkazů: ",
+    "prikazy": "/me Seznam Wolf příkazů: https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/Wolf/prikazy.md",
 
     "nouseralkohol": "/me Nevidím %%NAME%% v místnosti, takže si vyber někoho jinýho na panáka.",
     "givealkohol": "/me Pozvi někoho na sklenku přes !alkohol @jmeno.",
