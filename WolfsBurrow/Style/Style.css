@@ -171,7 +171,7 @@
 }
 
 .sr-only {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
@@ -372,7 +372,7 @@
 }
 
 #dashboard .search__box .dropdown2 .text-container {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.75) 249%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.75) 249%) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)
 }
 
@@ -381,12 +381,12 @@
 }
 
 #dashboard .search__box .dropdown2 .dropdown2-menu {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.75) 249%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.75) 249%) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)
 }
 
 .jspPane .cell:hover>.meta {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.25) 249%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.25) 249%) !important;
     border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
@@ -400,12 +400,12 @@
 }
 
 #dashboard .dashboard__communities_panel {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 #dialog-container .dialog {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
@@ -575,22 +575,22 @@
 }
     
 #playlist-panel #playlist-menu {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)!important
 }
 
 #user-view #user-menu {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)!important
 }
 
 #user-view .jspContainer .jspPane .cell {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)!important
 }
 
 .popover .share-room {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)!important
 }
 
@@ -599,17 +599,17 @@
 }
 
 #user-view #user-menu .item:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
     border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
 #user-view .dropdown dd .row:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.25) 250%) !important;
     border: 1px solid rgba(92, 151, 64, 0.25)
 }
 
 #user-view .dropdown dt {
-    background: radial-gradient(rgba(0, 0, 0, 0.25) 40%,rgba(92, 151, 64, 0.75) 250%) !important;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 40%,rgba(92, 151, 64, 0.75) 250%) !important;
     border: 1px solid rgba(92, 151, 64, 0.75)
 }
 
@@ -691,7 +691,7 @@
 }
 
 #user-rollover:not(.chat) .arrow-down {
-    border-top-color: rgba(0, 0, 0, 0.25) !important
+    border-top-color: rgba(0, 0, 0, 0.5) !important
 }
 
 #user-rollover:not(.chat) .arrow-down:after {
@@ -707,31 +707,31 @@
 }
 
 #toast-notifications .left {
-    background:rgba(0, 0, 0, 0.25) !important
+    background:rgba(0, 0, 0, 0.5) !important
 }
 
 #toast-notifications .right {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 #user-rollover {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 .user-level-dropdown {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 .user-profile-dropdown {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 #user-rollover.chat .arrow-down {
-    border-left-color: rgba(0, 0, 0, 0.25) !important
+    border-left-color: rgba(0, 0, 0, 0.5) !important
 }
 
 #user-rollover.chat .arrow-down:after {
@@ -785,7 +785,7 @@
 }
 
 .community .left-side-wrapper .community__top .community__top-right>div>div {
-    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.25)
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5)
 }
 
 .community .left-side-wrapper .community__top .community__top-right>div>div:hover {
@@ -1196,11 +1196,11 @@
 }
 
 .user-level-dropdown .rs-flat-table {
-    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.25),transparent)
+    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.5),transparent)
 }
 
 .user-profile-dropdown .rs-flat-table {
-    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.25),transparent)
+    background:linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.5),transparent)
 }
 
 .user-level-dropdown .user-level-dropdown__bottom {
@@ -1212,12 +1212,12 @@
 }
 
 .share-room.arrow-bottom {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
 .share-song.arrow-bottom {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: 1px solid rgba(92, 151, 64, 0.75) !important
 }
 
