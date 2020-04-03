@@ -102,7 +102,6 @@ Uživatel
 |!dclookup/!dc | | Vrátí uživatele na předchozí pozici ve frontě před přerušením připojení s místnosti. |
 |!autowoot | | Poskytne link na populární autowoot RCS. |
 |!eta | | Zobrazuje dobu, kdy se dostane uživatel na řadu z fronty. |
-|!koupit | @jméno | Koupí náhodou věc uživateli. |
 |!alkohol | @jméno | Dá uživateli panáka alkoholu. |
 |!cookie | @jméno | Pošle uživateli sušenku. |
 |!zvire | @jméno | Napíše uživateli společné rysy s náhodným zvířetem. |
