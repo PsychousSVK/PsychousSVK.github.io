@@ -73,6 +73,19 @@
         "ti vzkazuje: \"Šlápni na lego a zakopni o skříň!\""
 ],
 
+    "bitches": [
+        "se tě ptá, jestli nechceš být jeho/její bitch.",
+        "tě chce do svého harému.",
+        "tě pasuje na svou osobní bitch.",
+        "chce po tobě ruční práce. Však víš, co tím myslím..",
+        "ti sahá kam nemá.",
+        "má s tebou jisté plány..",
+        "si s tebou chce pohrát.",
+        "si s tebou chce dát sprchu.",
+        "si chce líznout.",
+        "po tobě chce službičku."
+],
+
     "hugs": [
         "ti posílá virtuální objetí https://PsychousSvK.github.io/WolfsBurrow/Icons/VirtualHug.gif",
         "ti posílá virtuální pusu https://PsychousSvK.github.io/WolfsBurrow/Icons/VirtualKiss.gif"
@@ -123,6 +136,18 @@
         "má micropenis a veřejně to přiznává.",
         "tě žádá o krásnou velkou růžovou ponožku.",
        "tě miluje a přeje ti tolik dobrého, kolik by ti nikdo jiný nepřál, ale chce za to vypindit hoňoura."
+],
+
+    "obchod": [
+        "ti koupil/a zákusky, abys přibral/a.",
+        "ti koupil/a smítko prachu z velké lásky k tobě. :heart:",
+        "ti koupil/a zrcadlo, aby ses do něj konečně podíval/a.",
+        "ti koupil/a kolo, abys zhubl/a.",
+        "ti koupil/a pořádnou židli, ať máš na čem sedět.",
+        "ti koupil/a zájezd do Sýrie, protože se tě chce zbavit.",
+        "ti chtěl/a něco koupit, ale radši to koupil/a sobě.",
+        "ti koupil/a nutellu, ale cestou k tobě ji snědl/a.",
+        "ti koupil jedno velké nic, abys poznal pocit prázdnoty."
 ],
 
     "animal": [
@@ -350,6 +375,11 @@
     "selfsklep": "/me @%%NAME%%, zvát se sám/a sebe do sklepa není zrovna nejvhodnější. ",
     "nousersklep": "/me Nevidím %%NAME%% v místnosti, takže zamkni do sklepa někoho jinýho.",
     "sklep": "/me @%%NAMETO%%, @%%NAMEFROM%% %%SKLEPOVKY%%",
+
+    "givekoupit": "/me Příkazem !koupit @jmeno někomu něco koupíš.",
+    "selfkoupit": "/me %%NAME%% si koupil/a čokoládu. ",
+    "nouserkoupit": "/me Nevidím %%NAME%% v místnosti, takže má smůlu a koupit to můžeš někomu jinýmu.",
+    "koupit": "/me @%%NAMETO%%, @%%NAMEFROM%% %%OBCHOD%%",
     
     "givelulu": "/me Příkazem !lulu projevíš na někom svojí nadrženost.",
     "selflulu": "/me %%NAME%% šel lulu.",
