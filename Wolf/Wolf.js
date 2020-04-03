@@ -3784,45 +3784,6 @@ sklepCommand: {
                     }
                 }
             },
-discordCommand: {
-command: ['discord', 'disc'],
-rank: 'user',
-type: 'startsWith',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-else{
-
-var from = chat.un;
-var msg = chat.message;
-var medzera = msg.indexOf(' ');
-
-if(medzera === -1){
-API.sendChat("[ DISCORD ] Odkaz na náš Discord server je https://discord.gg/WMnTvZq");
-return false;
-}
-
-else{
-var meno = msg.substring(medzera + 2);
-var user = basicBot.userUtilities.lookupUserName(meno);
-
-if(user === false || !user.inRoom){
-return API.sendChat("[@" + from + "] Nevidím tohto užívateľa v komunite!");
-}
-
-else if(user.username === chat.un){
-return API.sendChat("[ DISCORD ] Odkaz na náš Discord server je https://discord.gg/WMnTvZq");
-}
-
-else{
-return API.sendChat("[@"+ user.username +"] Odkaz na náš Discord server je https://discord.gg/WMnTvZq");
-}
-
-}
-
-}
-}
-},
 
             skipposCommand: {
                 command: 'skippos',
