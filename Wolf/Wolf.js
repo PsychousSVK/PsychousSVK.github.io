@@ -245,7 +245,7 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.8',
+        version: '2.12.9',
         status: false,
         name: 'ArticBot',
         loggedInID: null,
@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'ArticBott',
+            botName: 'ArticBot',
             language: 'czech',
             chatLink: 'https://psychoussvk.github.io/Wolf/lang/czech.json',
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
