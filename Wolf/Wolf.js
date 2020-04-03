@@ -309,7 +309,6 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            discord: "https://discord.gg/WMnTvZq",
             rulesLink: null,
             themeLink: null,
             fbLink: null,
@@ -3671,21 +3670,6 @@ sklepCommand: {
                         if (typeof basicBot.settings.rulesLink === 'string')
                             return API.sendChat(subChat(basicBot.chat.roomrules, {
                                 link: basicBot.settings.rulesLink
-                            }));
-                    }
-                }
-            },
-discordCommand: {
-                command: 'discord',
-                rank: 'user',
-                type: 'exact',
-                functionality: function(chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-                    else {
-                        if (typeof basicBot.settings.discordLink === 'string')
-                            return API.sendChat(subChat(basicBot.chat.roomdiscord, {
-                                link: basicBot.settings.discordLink
                             }));
                     }
                 }
