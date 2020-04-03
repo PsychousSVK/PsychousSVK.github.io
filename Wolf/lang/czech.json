@@ -306,6 +306,7 @@
     "reload": "/me Hned jsem zpět.",
     "removenotinwl": "/me [@%%NAME%%] Vybraný uživatel @%%USERNAME%% není ve frontě.",
     "roomrules": "/me Prosím přečtěte si zde pravidla komunity: %%LINK%%",
+    "discord": "/me Náš Discord server: %%LINK%%"
     "sessionstats": "/me [@%%NAME%%] Celkem wootů: %%WOOTS%%, celkem mehů: %%MEHS%%, celkem grabů: %%GRABS%%.",
     "forceskip": "/me [%%NAME%% použil/a forceskip]",
     "madeby": "/me Tenhle bot byl vytvořen %%NAME%%.",
