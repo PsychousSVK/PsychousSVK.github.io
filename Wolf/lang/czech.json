@@ -170,11 +170,11 @@
         "Na to honem rychle zapomeň!",
         "Můžeš chvilinku být zticha?!",
 	"69",
-	"Co myslíš, že by na to řekl GeeDee?",
-	"To zní fajn. Thomas by jistě souhlasil!",
+	"Co myslíš, že by na to řekl Psychouš?",
+	"To zní fajn. Psychouš by jistě souhlasil!",
 	"Tato extrémně komplexní otázka zapříčinila edém na mém neocortexu.",
 	"Dáš mi na to recept?",
-	"Proč to raději nenapíšeš Wolfovi?"
+	"Proč to raději nenapíšeš Psychoušovi?"
 ],
 
     "nodatafound": "Nebyla nalezena žádná předchozí data.",
@@ -186,8 +186,8 @@
     "greyuser": "Pouze vyhazovači a vyšší mohou spustit bota.",
     "bouncer": "Bot nemůže přesouvat lidi, když je spuštěn jako vyhazovač.",
     "online": "/me %%BOTNAME%% v%%VERSION%% je online!",
-    "welcome": "/me Vítej %%NAME%%",
-    "welcomeback": "/me Vítej zpět, %%NAME%%",
+    "welcome": "/me Jsme rádi že ses přidal k naší vlčí komunitě @%%NAME%% :green_heart:",
+    "welcomeback": "/me Vítej zpět, @%%NAME%%",
     "songknown": "/me @%%NAME%%, tato skladba je již v DJ historii.",
     "notavailable": "/me @%%NAME%%, skladba, kterou jsi hrál/a, nebyla dotupná.",
     "timelimit": "/me @%%NAME%%, tvoje skladba je delší než %%MAXLENGTH%% minut, potřebuješ svolení hrát delší skladby.",
