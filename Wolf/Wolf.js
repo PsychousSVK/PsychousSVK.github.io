@@ -245,9 +245,9 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.6',
+        version: '2.12.8',
         status: false,
-        name: 'WolfBot',
+        name: 'ArticBot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
         cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/Wolf/prikazy.md',
@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'WolfBot',
+            botName: 'ArticBott',
             language: 'czech',
             chatLink: 'https://psychoussvk.github.io/Wolf/lang/czech.json',
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
@@ -290,7 +290,7 @@
             usercommandsEnabled: true,
             thorCommand: false,
             thorCooldown: 10,
-            skipPosition: 2,
+            skipPosition: 3,
             skipReasons: [
                 ['theme', 'This song does not fit the room theme. '],
                 ['op', 'This song is on the OP list. '],
@@ -309,7 +309,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: "https://discord.gg/bjwqFRU",
+            rulesLink: null,
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
@@ -2340,41 +2340,7 @@ zvireCommand: {
                     }
                 }
             },
-koupitCommand: {
-                command: ['koupit', 'buy'],
-                rank: 'user',
-                type: 'startsWith',
-                getobchod: function (chat) {
-                    var c = Math.floor(Math.random() * basicBot.chat.obchod.length);
-                    return basicBot.chat.obchod[c];
-                },
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
 
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.givekoupit);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nouserkoupit, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfkoupit, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(basicBot.chat.koupit, {nameto: user.username, namefrom: chat.un, OBCHOD: this.getobchod()}));
-                            }
-                        }
-                    }
-                }
-            },
             luluCommand: {
                 command: 'lulu',
                 rank: 'user',
