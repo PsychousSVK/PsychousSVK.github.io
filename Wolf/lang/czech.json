@@ -351,11 +351,6 @@
     "nousersklep": "/me Nevidím %%NAME%% v místnosti, takže zamkni do sklepa někoho jinýho.",
     "sklep": "/me @%%NAMETO%%, @%%NAMEFROM%% %%SKLEPOVKY%%",
     
-    "givekoupit": "/me Příkazem !koupit @jmeno někomu něco koupíš.",
-    "selfkoupit": "/me %%NAME%% si koupil/a čokoládu. ",
-    "nouserkoupit": "/me Nevidím %%NAME%% v místnosti, takže má smůlu a koupit to můžeš někomu jinýmu.",
-    "koupit": "/me @%%NAMETO%%, @%%NAMEFROM%% %%OBCHOD%%",
-    
     "givelulu": "/me Příkazem !lulu projevíš na někom svojí nadrženost.",
     "selflulu": "/me %%NAME%% šel lulu.",
     "nouserlulu": "/me Nevidím %%NAME%% v místnosti, takže ho nevyluluješ.",
