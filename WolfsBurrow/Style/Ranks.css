@@ -116,19 +116,19 @@
 }
 
 .icon-chat-dj ~ span {
-    color: #206200 !important;
+    color: #8FC078 !important;
 }
 
 #dialog-user-role .role-menu .menu ul .dj span {
-    color: #206200 !important;
+    color: #8FC078 !important;
 }
 
 #chat .mention.role-dj .name {
-    color: hsl(100, 100%, 19%) !important;
+    color: hsl(101, 38%, 61%) !important;
 }
 
 #chat .mention.role-dj .timestamp {
-    color: hsl(100, 100%, 19%) !important;
+    color: hsl(101, 38%, 61%) !important;
 }
 
 /*
@@ -141,19 +141,19 @@
 }
 
 .icon-chat-bouncer ~ span {
-    color: #4F7B3A !important;
+    color: #8FC078 !important;
 }
 
 #dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #4F7B3A !important;
+    color: #8FC078 !important;
 }
 
 #chat .mention.role-bouncer .name {
-    color: #4F7B3A !important;
+    color: #8FC078 !important;
 }
 
 #chat .mention.role-bouncer .timestamp {
-    color: #4F7B3A !important;
+    color: #8FC078 !important;
 }
 
 *
@@ -166,19 +166,19 @@
 }
 
 .icon-chat-manager ~ span {
-    color: #70955F !important;
+    color: #8FC078 !important;
 }
 
 #dialog-user-role .role-menu .menu ul .manager span {
-    color: #70955F !important;
+    color: #8FC078 !important;
 }
 
 #chat .mention.role-manager .name {
-    color: #70955F !important;
+    color: #8FC078 !important;
 }
 
 #chat .mention.role-manager .timestamp {
-    color: #70955F !important;
+    color: #8FC078 !important;
 }
 
 /*
@@ -245,19 +245,19 @@
 }
 
 .icon-chat-plot ~ span {
-    color: #977240 !important;
+    color: #C0A978 !important;
 }
 
 #chat .role-plot .un {
-    color: #977240 !important;
+    color: #C0A978 !important;
 }
 
 #chat .mention.role-plot .name {
-    color: #977240 !important;
+    color: #C0A978 !important;
 }
 
 #chat .mention.role-plot .timestamp {
-    color: #977240 !important;
+    color: #C0A978 !important;
 }
 
 /*
@@ -270,19 +270,19 @@
 }
 
 .icon-chat-promoter ~ span {
-    color: #40975B !important;
+    color: #78C080 !important;
 }
 
 #chat .role-promoter .un {
-    color: #40975B !important;
+    color: #78C080 !important;
 }
 
 #chat .mention.role-promoter .name {
-    color: #40975B !important;
+    color: #78C080 !important;
 }
 
 #chat .mention.role-promoter .timestamp {
-    color: #40975B !important;
+    color: #78C080 !important;
 }
 
 /*
@@ -295,19 +295,19 @@
 }
 
 .icon-chat-sitemod ~ span {
-    color: #974040 !important;
+    color: #C07878 !important;
 }
 
 #chat .role-sitemod .un {
-    color: #974040 !important;
+    color: #C07878 !important;
 }
 
 #chat .mention.role-sitemod .name {
-    color: #974040 !important;
+    color: #C07878 !important;
 }
 
 #chat .mention.role-sitemod .timestamp {
-    color: #974040 !important;
+    color: #C07878 !important;
 }
 
 /*
