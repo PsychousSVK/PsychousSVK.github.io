@@ -391,7 +391,7 @@
 }
 
 #user-lists .group.manager ~ .user .name {
-    color: #70955F;
+    color: #8FC078;
 }
 
 /* Bouncers */
@@ -401,7 +401,7 @@
 }
 
 #user-lists .group.bouncer ~ .user .name {
-    color: #4F7B3A;
+    color: #8FC078;
 }
 
 /* DJs */
@@ -411,7 +411,7 @@
 }
 
 #user-lists .group.dj ~ .user .name {
-    color: #206200;
+    color: #8FC078;
 }
 
 /*
