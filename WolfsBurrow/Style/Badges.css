@@ -1,11 +1,5 @@
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-.bdg.g {
-    background-image: url(https://cdn-prod.plug.dj/_/static/images/sheets/badges_g_small.3a9d31b….png);
-}
-
-/*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
-
 /* PsychoušSvK */
 [data-cid^="40796598-"] .badge-box .bdg {
     border-radius: 5px;
@@ -53,7 +47,7 @@
     border-radius: 5px;
 }
 
-#user-view .bdg {
+.user-content.profile .meta .bdg.g {
     background-image: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PsychousSvK.jpg);
     background-size:cover;
     width:100%;
