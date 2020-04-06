@@ -1580,3 +1580,13 @@ li.community__player-item.volume {
     text-align: center;
     font-size: 12px;
 }
+
+.community .friends .header i {
+    position: absolute;
+    top: 21px;
+    left: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8FC078;
+}
