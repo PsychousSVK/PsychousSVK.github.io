@@ -245,9 +245,9 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.9',
+        version: '2.13.2',
         status: false,
-        name: 'ArticBot',
+        name: 'PsychopathBot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
         cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/Wolf/prikazy.md',
@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'ArticBot',
+            botName: 'PsychopathBot',
             language: 'czech',
             chatLink: 'https://psychoussvk.github.io/Wolf/lang/czech.json',
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
@@ -304,7 +304,7 @@
             afkRankCheck: 'ambassador',
             motdEnabled: true,
             motdInterval: 15,
-            motd: 'Připojte se k naší vlčí skupině: https://discord.gg/WMnTvZq',
+            motd: ':green_heart: Vítej v naší vlčí skupině. :green_heart:',
             filterChat: false,
             etaRestriction: false,
             welcome: true,
