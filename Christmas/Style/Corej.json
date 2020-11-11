@@ -1,1 +1,51 @@
-# PsychousSVK.github.io
+{
+    "room": "Wolf's burrow",
+    "author": "PsychoušSVK",
+    "icon": null,
+    "css": "https://PsychousSvK.github.io/WolfsBurrow/Style/Style.css",
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": true,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": true,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": "#428372",
+        "ambassador": "#428372",
+        "sitemod": "#C07878",
+        "promoter": "#78C080",
+        "plot": "#C0A978",
+        "host": "#428372",
+        "cohost": "#428372",
+        "manager": "#428372",
+        "bouncer": "#428372,
+        "rdj": "#428372",
+        "subscriber": "#979140",
+        "silversubscriber": "#8F96A3",
+        "friend": null,
+        "user": null
+    },
+    "images": {
+        "background": "https://PsychousSvK.github.io/Christmas/Icons/Background.png",
+        "playback": "https://PsychousSvK.github.io/Christmas/Icons/Playback.png",
+        "admin": "https://PsychousSvK.github.io/Christmas/Icons/Admin.png",
+        "ambassador": "https://PsychousSvK.github.io/Christmas/Icons/Ambassador.png",
+        "sitemod": "https://PsychousSvK.github.io/Christmas/Icons/Sitemoderator.png",
+        "promoter": "https://PsychousSvK.github.io/Christmas/Icons/Promoter.png",
+        "plot": "https://PsychousSvK.github.io/Christmas/Icons/Plot.png", 
+        "host": "https://PsychousSvK.github.io/Christmas/Icons/Host.png",
+        "cohost": "https://PsychousSvK.github.io/Christmas/Icons/Cohost.png",
+        "manager": "https://PsychousSvK.github.io/Christmas/Icons/Manager.png",
+        "bouncer": "https://PsychousSvK.github.io/Christmas/Icons/Bouncer.png",
+        "rdj": "https://PsychousSvK.github.io/WChristmas/Icons/ResidentDJ.png",
+        "subscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Subscriber.png",
+        "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Silversubscriber.png"
+    },
+    "emotes": {
+    	"emote_name": null
+    }
+}
