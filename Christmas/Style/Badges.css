@@ -59,13 +59,8 @@
     border-radius: 5px;
 }
 
-.cm .from:not(.staff):not(.has-sub) .un.clickable:before {
-    content: url("https://PsychousSvK.github.io/Christmas/Icons/Badge.png") !important;
-    height: 15px;
-    width: 15px;
-    top: 3px;
-    right: 3px;
-    position: relative;
+.bdg.g {
+    background-image: url(https://PsychousSvK.github.io/Christmas/Icons/Badge.png);
 }
    
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
