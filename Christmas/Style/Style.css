@@ -775,7 +775,7 @@
 }
 
 .community .community__name {
-    color: #404497;
+    color: #00c6ff;
     text-shadow: 0 0 5px #000
 }
 
@@ -1084,9 +1084,9 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.welcome .text {
     font-family: 'Open Sans';
     font-size: 1.2em;
-    border: 1px dashed rgba(63, 105, 199, 0.25);
+    border: 1px dashed rgba(63, 105, 199, 0.5);
     padding: 10px;
-    color: rgba(63, 105, 199, 0.25);
+    color: rgba(63, 105, 199, 0.75);
     text-align: left
 }
 
@@ -1137,7 +1137,7 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-input {
     transition: all .4s ease-out;
     background-color :transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(63, 105, 199, 0.25) !important;
+    box-shadow: inset 0 0 0 1px rgba(63, 105, 199, 0.5) !important;
     border-radius: 5px;
     height: 28px
 }
