@@ -24,13 +24,13 @@
     top: 8px;
     left: 8px;
     font-family: 'fontawesome';
-    content: '\f073 \20 Evento';
+    content: '\f073 \20 Event';
     font-size: 16px;
     color: #3F69C7;
 }
 
 #rcs-style-anchor-1.toggled:before { 
-    content: '\f073 \20 Evento';
+    content: '\f073 \20 Event';
 }
 
 #rcs-style-anchor-1.toggled {
