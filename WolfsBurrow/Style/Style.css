@@ -1,7 +1,7 @@
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-@import url('https://PsychousSvK.github.io/WolfsBurrow/Style/Ranks.css');
-@import url('https://PsychousSvK.github.io/WolfsBurrow/Style/Badges.css');
+@import url('https://PsychousSvK.github.io/WChristmas/Style/Ranks.css');
+@import url('https://PsychousSvK.github.io/Christmas/Style/Badges.css');
 
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 @-webkit-keyframes fadeIn {
@@ -167,7 +167,7 @@
 
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 .icon {
-    background-image: url('https://PsychousSvK.github.io/WolfsBurrow/Icons/Icons.png');
+    background-image: url('https://PsychousSvK.github.io/Christmas/Icons/Icons.png');
 }
 
 .sr-only {
@@ -1492,7 +1492,7 @@ li.community__player-item.volume {
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner {
-    background-image: url("https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrowPlayback.png") !important
+    background-image: url("https://PsychousSvK.github.io/Christmas/Icons/Playback.png") !important
 }
 
 .community .friends .list .row.is-sitemod .name i {
