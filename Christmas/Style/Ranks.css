@@ -1,0 +1,438 @@
+┌————————————————————┐
+│     Role: NONE     │
+└————————————————————┘
+ --[MENTION]-- */
+#chat .cm.mention span {
+    color: hsl(60, 70%, 50%);
+}
+
+#chat .cm.mention .name {
+    color: hsl(60, 80%, 50%);
+}
+
+#chat .cm.mention .timestamp {
+    color: hsl(60, 80%, 50%);
+}
+
+/*
+ ┌————————————————————┐
+ │     Role: YOU      │
+ └————————————————————┘
+*/
+.is-you .name,
+#chat .cm.role-you .un {
+    color: hsl(200, 100%, 50%);
+}
+
+#chat .mention.is-you .name {
+    color: hsl(200, 100%, 40%) !important;
+}
+
+#chat .mention.is-you .timestamp {
+    color: hsl(200, 100%, 40%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: FRIEND     │
+ └————————————————————┘
+*/
+#chat .cm.role-friend .un {
+    color: hsl(80, 60%, 50%);
+}
+
+#chat .mention.role-friend .name {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+#chat .mention.role-friend .timestamp {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+┌————————————————————┐
+│  Role: SILVERSUB   │
+└————————————————————┘
+*/
+.icon-chat-silver-subscriber {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -120px !important;
+}
+
+#user-rollover .meta.silversubscriber .status i {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -120px !important;
+}
+
+.icon-chat-silver-subscriber ~ span {
+    color: #8F96A3 !important;
+}
+
+#user-rollover .meta.silversubscriber .status span {
+    color: #8F96A3 !important;
+}
+
+#chat .mention.role-silver-subscriber .name {
+    color: hsl(219, 12%, 60%) !important;
+}
+
+#chat .mention.role-silver-subscriber .timestamp {
+    color: hsl(219, 12%, 60%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: GOLDSUB    │
+ └————————————————————┘
+*/
+.icon-chat-subscriber {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -105px !important;
+}
+
+#user-rollover .meta.subscriber .status i {
+    background: url(https://PsychousSvK.github.io/Christams/Icons/Ranks.png) -105px !important;
+}
+
+.icon-chat-subscriber ~ span {
+    color: #979140 !important;
+}
+
+#user-rollover .meta.subscriber .status span {
+    color: #979140 !important;
+}
+
+#chat .mention.role-subscriber .name {
+    color: hsl(56, 58%, 42%) !important;
+}
+
+#chat .mention.role-subscriber .timestamp {
+	color: hsl(56, 58%, 42%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: RES. DJ    │
+ └————————————————————┘
+*/
+.icon-chat-dj {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -90px !important;
+}
+
+.icon-chat-dj ~ span {
+    color: #418271 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .dj span {
+    color: #418271 !important;
+}
+
+#chat .mention.role-dj .name {
+    color: hsl(164°, 50%, 61%) !important;
+}
+
+#chat .mention.role-dj .timestamp {
+    color: hsl(164°, 50%, 61%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: BOUNCER    │
+ └————————————————————┘
+*/
+.icon-chat-bouncer {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -75px !important;
+}
+
+.icon-chat-bouncer ~ span {
+    color: #418271 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .bouncer span {
+    color: #418271 !important;
+}
+
+#chat .mention.role-bouncer .name {
+    color: #418271 !important;
+}
+
+#chat .mention.role-bouncer .timestamp {
+    color: #418271 !important;
+}
+
+*
+ ┌————————————————————┐
+ │   Role: MANAGER    │
+ └————————————————————┘
+*/
+.icon-chat-manager {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -60px !important;
+}
+
+.icon-chat-manager ~ span {
+    color: #418271 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #418271 !important;
+}
+
+#chat .mention.role-manager .name {
+    color: #418271 !important;
+}
+
+#chat .mention.role-manager .timestamp {
+    color: #418271 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: CO-HOST    │
+ └————————————————————┘
+*/
+.icon-chat-cohost {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -45px !important;
+}
+
+.icon-chat-cohost ~ span {
+    color: #428372 !important;
+}
+
+#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+    color: #428372 !important;
+}
+
+.role-cohost .un {
+    color: #428372 !important;
+}
+
+#chat .mention.role-cohost .name {
+    color: hsl(164°, 50%, 61%) !important;
+}
+
+#chat .mention.role-cohost .timestamp {
+    color: hsl(164°, 50%, 61%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │     Role: HOST     │
+ └————————————————————┘
+*/
+.icon-chat-host {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -30px !important;
+}
+
+.icon-chat-host ~ span {
+    color: #428372 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .host span {
+    color: #428372 !important;
+}
+
+#chat .mention.role-host .name {
+    color: hsl(164°, 50%,, 61%) !important;
+}
+
+#chat .mention.role-host .timestamp {
+    color: hsl(164°, 50%,, 61%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    gRole: PLOT     │
+ └————————————————————┘
+*/
+.icon-chat-plot {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Plot.png) -15px !important;
+}
+
+.icon-chat-plot ~ span {
+    color: #C0A978 !important;
+}
+
+#chat .role-plot .un {
+    color: #C0A978 !important;
+}
+
+#chat .mention.role-plot .name {
+    color: #C0A978 !important;
+}
+
+#chat .mention.role-plot .timestamp {
+    color: #C0A978 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: PROMOTER   │
+ └————————————————————┘
+*/
+.icon-chat-promoter {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Promoter.png) -15px !important;
+}
+
+.icon-chat-promoter ~ span {
+    color: #78C080 !important;
+}
+
+#chat .role-promoter .un {
+    color: #78C080 !important;
+}
+
+#chat .mention.role-promoter .name {
+    color: #78C080 !important;
+}
+
+#chat .mention.role-promoter .timestamp {
+    color: #78C080 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   gRole: SITEMOD   │
+ └————————————————————┘
+*/
+.icon-chat-sitemod {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Sitemoderator.png) -15px !important;
+}
+
+.icon-chat-sitemod ~ span {
+    color: #C07878 !important;
+}
+
+#chat .role-sitemod .un {
+    color: #C07878 !important;
+}
+
+#chat .mention.role-sitemod .name {
+    color: #C07878 !important;
+}
+
+#chat .mention.role-sitemod .timestamp {
+    color: #C07878 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    gRole: BA       │
+ └————————————————————┘
+*/
+.icon-chat-ambassador {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -15px !important;
+}
+
+.icon-chat-ambassador ~ span {
+    color: hsl(164°, 50%, 51%) !important;
+}
+
+#chat .role-ambassador .un {
+    color: hsl(164°, 50%, 51%) !important;
+}
+
+#chat .mention.role-ambassador .name{
+    color: hsl(164°, 50%, 51%) !important;
+}
+
+#chat .mention.role-ambassador .timestamp {
+    color: hsl(164°, 50%, 51%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   gRole: ADMIN     │
+ └————————————————————┘
+*/
+.icon-chat-admin {
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) 0 !important;
+}
+
+.icon-chat-admin ~ span {
+    color: #428372 !important;
+}
+
+#chat .role-admin .un {
+    color: #428372 !important;
+}
+
+#chat .mention.role-admin .name {
+    color: #428372 !important;
+}
+
+#chat .mention.role-admin .timestamp {
+    color: #428372 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    Users-list      │
+ └————————————————————┘
+ Needs to be in this order &
+ separated from roles to
+ maintain correct priorities */
+/* Host */
+#user-lists .group.host {
+    color: #428372;
+    background: linear-gradient(to right, hsla(164°, 50%, 0.25), hsla(164°, 50%, 0.5)) !important;
+    top: 1px;
+}
+
+/* Only make the First user the host to have as many co-hosts as you want */
+#user-lists .group.host ~ .user:nth-child(2) .name {
+	color: #428372;
+}
+
+/* Co-hosts */
+#user-lists .group.host ~ .user .name {
+    color: #428372;
+}
+
+/* Managers */
+#user-lists .group.manager {
+    color: #428372;
+    background: linear-gradient(to right, hsla(164°, 50%, 0.25), hsla(164°, 50% 0.5)) !important;
+}
+
+#user-lists .group.manager ~ .user .name {
+    color: #428372;
+}
+
+/* Bouncers */
+#user-lists .group.bouncer {
+    color: #428372;
+    background: linear-gradient(to right, hsla(164°, 50%, 0.25), hsla(164°, 50%, 45%, 0.5)) !important;
+}
+
+#user-lists .group.bouncer ~ .user .name {
+    color: #428372;
+}
+
+/* DJs */
+#user-lists .group.dj {
+    color: ##428372;
+    background: linear-gradient(to right, hsla(164°, 50%, 19%, 0.25), hsla(164°, 50%, 29%, 0.5)) !important;
+}
+
+#user-lists .group.dj ~ .user .name {
+    color: #428372;
+}
+
+/*
+ ┌————————————————————┐
+ │   Miscellaneous    │
+ └————————————————————┘
+*/
+#chat .cm.mention .msg {
+    /*fix RCS*/
+    background: none !important;
+}
+
+#user-lists .group {
+    border: none !important;
+    box-shadow: 0 0 1px 1px;
+}
+
+#waitlist .list .user .name i {
+    display: block; /* sub is display:none wtf plug ? */
+}
+
+.community__right-bar .friends .list .row.is-offline {
+    filter: saturate(.5);
+} 
