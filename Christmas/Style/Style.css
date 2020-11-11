@@ -738,7 +738,7 @@
     content: "";
     border-top: 10px solid transparent !important;
     border-right: 10px solid transparent !important;
-    border-left: 10px solid rgba(92, 151, 64, 0.25);
+    border-left: 10px solid rgba(63, 105, 199, 0.25);
     border-bottom: 10px solid transparent !important;
     position: absolute;
     margin-top: -10px;
