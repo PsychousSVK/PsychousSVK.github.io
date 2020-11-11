@@ -1524,7 +1524,7 @@ li.community__player-item.volume {
     padding: 0 6px;
     min-width: 10px;
     border-radius: 12px;
-    background: #8FC078;
+    background: #3F69C7;
     text-align: center;
     font-size: 12px;
 }
@@ -1537,7 +1537,7 @@ li.community__player-item.volume {
     padding: 0 6px;
     min-width: 10px;
     border-radius: 12px;
-    background: #8FC078;
+    background: #3F69C7;
     text-align: center;
     font-size: 12px;
 }
@@ -1547,7 +1547,7 @@ li.community__player-item.volume {
     bottom: -6px;
     right: -4px;
     z-index: 10;
-    background-color: #8FC078;
+    background-color: #3F69C7;
     text-align: center;
     padding: 3px;
     min-width: 9px;
@@ -1559,7 +1559,7 @@ li.community__player-item.volume {
     position: absolute;
     bottom: 3px;
     left: 10px;
-    background-color: #8FC078;
+    background-color: #3F69C7;
     text-align: center;
     padding: 2px 2px;
     min-width: 9px;
@@ -1575,7 +1575,7 @@ li.community__player-item.volume {
     padding: 0 6px;
     min-width: 10px;
     border-radius: 12px;
-    background: #8FC078;
+    background: #3F69C7;
     color: #eee;
     text-align: center;
     font-size: 12px;
@@ -1588,5 +1588,5 @@ li.community__player-item.volume {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #8FC078;
+    background: #3F69C7;
 }
