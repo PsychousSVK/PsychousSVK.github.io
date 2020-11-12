@@ -1,0 +1,16 @@
+#user-rollover.id-40796598 .badge-box:before,
+#user-rollover.id-40796598 .badge-box:before{
+    top:-30px;
+    content:"Dev";
+    color:#3F69C7;
+    width:20px;
+    height:20px;
+    display:flex;
+    align-items:center;
+    position:absolute;
+    padding-left:25px;
+    font-size:13px;
+    background-image:url(https://raw.githack.com/brazilex/css/master/img/css.png);
+    background-size:20px 20px;
+    background-repeat:no-repeat
+}
