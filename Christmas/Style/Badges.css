@@ -98,55 +98,6 @@
 
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-/* Ciendy */
-[data-cid^="4690413-"] .badge-box .bdg {
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-image: url("https://PsychousSvK.github.io/Christmas/Icons/Ciendy.gif");
-}
-
-#user-rollover.id-4690413 .badge-box .bdg {
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-image: url("https://PsychousSvK.github.io/Christmas/Icons/Ciendy.gif");
-}
-
-#user-rollover.id-4690413 .badge-box i.bdg {
-    background-image: url(https://PsychousSvK.github.io/Christmas/Icons/Ciendy.gif);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-position: initial;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 5px;
-}
-
-#chat-messages .id-4690413 .badge-box:hover {
-    width:65px;
-    height:65px;
-    transition:.4s
-}
-
-#chat-messages .id-4690413 .badge-box i.bdg {
-    background-image:url(https://PsychousSvK.github.io/Christmas/Icons/Ciendy.gif);
-    background-size:cover;
-    width:100%;
-    height:100%;
-    background-position:initial;
-    position:absolute;
-    top:0;
-    left:0;
-    border-radius: 5px;
-}
-
-/*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
-
 .user-content.profile .meta .bdg.g {
     background-image: url(https://PsychousSvK.github.io/WolfsBurrow/Icons/PsychousSvK.jpg); !important
     background-size:cover;
