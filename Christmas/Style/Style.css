@@ -1048,6 +1048,7 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-messages {
     background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(63, 105, 199, 0.25),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #3F69C7,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
+    border-bottom: #3F69C7 1px solid
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm {
