@@ -1,16 +1,32 @@
-#user-rollover.id-40796598 .badge-box:before,
-#user-rollover.id-40796598 .badge-box:before{
-    top:-30px;
-    content:"Dev";
-    color:#3F69C7;
-    width:20px;
-    height:20px;
-    display:flex;
-    align-items:center;
-    position:absolute;
-    padding-left:25px;
-    font-size:13px;
-    background-image:url(https://raw.githack.com/brazilex/css/master/img/css.png);
-    background-size:20px 20px;
-    background-repeat:no-repeat
+#user-lists .list .user.id-40796598 .name:after {
+    content: "CSS DEV";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(63, 105, 199, 1);
+    border-radius: 5px;
+    color: #3F69C7;
+    font-size: 9px;
+}
+
+#chat [data-cid^='40796598-'] .un:after {
+    content: "CSS DEV";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(63, 105, 199, 1);
+    border-radius: 5px;
+    color: #3F69C7;
+    font-size: 9px;
+}
+
+#user-rollover.id-40796598 .meta .username:after {
+    content: "CSS DEV";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(63, 105, 199, 1);
+    border-radius: 5px;
+    color: #3F69C7;
+    font-size: 10px;
 }
