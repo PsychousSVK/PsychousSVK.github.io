@@ -953,6 +953,10 @@
 }
 
 .community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button {
+    border-bottom:1px solid #3F69C7 !important
+}
+
+.community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button {
     height: 50px;
     border-bottom-color: rgba(63, 105, 199, 0.25) !important
 }
