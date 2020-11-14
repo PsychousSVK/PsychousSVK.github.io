@@ -1,1 +1,0 @@
-# PsychousSVK.github.io
