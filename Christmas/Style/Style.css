@@ -1592,3 +1592,8 @@ li.community__player-item.volume {
     border-radius: 50%;
     background: #3F69C7;
 }
+
+#rcs-style-anchor-3 {
+    visibility: hidden;
+}
+
