@@ -112,7 +112,7 @@
  └————————————————————┘
 */
 .icon-chat-dj {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -90px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -90px !important;
 }
 
 .icon-chat-dj ~ span {
@@ -137,7 +137,7 @@
  └————————————————————┘
 */
 .icon-chat-bouncer {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -75px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -75px !important;
 }
 
 .icon-chat-bouncer ~ span {
@@ -162,7 +162,7 @@
  └————————————————————┘
 */
 .icon-chat-manager {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -60px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -60px !important;
 }
 
 .icon-chat-manager ~ span {
@@ -187,7 +187,7 @@
  └————————————————————┘
 */
 .icon-chat-cohost {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -45px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -45px !important;
 }
 
 .icon-chat-cohost ~ span {
@@ -216,7 +216,7 @@
  └————————————————————┘
 */
 .icon-chat-host {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -30px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -30px !important;
 }
 
 .icon-chat-host ~ span {
@@ -241,7 +241,7 @@
  └————————————————————┘
 */
 .icon-chat-plot {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Plot.png) -15px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Plot.png) -15px !important;
 }
 
 .icon-chat-plot ~ span {
@@ -266,7 +266,7 @@
  └————————————————————┘
 */
 .icon-chat-promoter {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Promoter.png) -15px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Promoter.png) -15px !important;
 }
 
 .icon-chat-promoter ~ span {
@@ -291,7 +291,7 @@
  └————————————————————┘
 */
 .icon-chat-sitemod {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Sitemoderator.png) -15px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Sitemoderator.png) -15px !important;
 }
 
 .icon-chat-sitemod ~ span {
@@ -316,7 +316,7 @@
  └————————————————————┘
 */
 .icon-chat-ambassador {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -15px;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) -15px !important;
 }
 
 .icon-chat-ambassador ~ span {
@@ -341,7 +341,7 @@
  └————————————————————┘
 */
 .icon-chat-admin {
-    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) 0;
+    background: url(https://PsychousSvK.github.io/Christmas/Icons/Ranks.png) 0 !important;
 }
 
 .icon-chat-admin ~ span {
