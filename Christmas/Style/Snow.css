@@ -9,8 +9,8 @@
     height: 100%;
     background-size: 150px;
     position: absolute;
-    -webkit-animation: cloudtwo infinite 45s linear;
-    animation: cloudtwo infinite 45s linear;
+    -webkit-animation: cloudtwo infinite 15s linear;
+    animation: cloudtwo infinite 15s linear;
     pointer-events: none;
 }
 
