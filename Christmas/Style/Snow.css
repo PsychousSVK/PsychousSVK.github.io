@@ -1,0 +1,32 @@
+.left-side-wrapper:after{
+    content: " ";
+    background: url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png);
+    background-repeat: repeat;
+    background-size: cover;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 150px;
+    position: absolute;
+    -webkit-animation: cloudtwo infinite 2s linear;
+    animation: cloudtwo infinite 2s linear;
+    pointer-events: none;
+}
+
+@-webkit-keyframes cloudtwo{
+     0%{
+         background-position:0px -100px;
+    }
+     100%{
+         background-position:0px 650px;
+    }
+}
+ @keyframes cloudtwo{
+     0%{
+         background-position:0px -100px;
+    }
+     100%{
+         background-position:0px 650px;
+    }
+}
