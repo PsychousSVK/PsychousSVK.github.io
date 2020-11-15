@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
+        $.get('https://psychoussvk.github.io/FreeRun/Bot/Lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -245,29 +245,29 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.3',
+        version: '3.13.3',
         status: false,
-        name: 'basicBot',
+        name: 'Foxíček',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
+        chatLink: 'https://psychoussvk.github.io/FreeRun/Bot/Lang/Czech.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
-            language: 'english',
-            chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
+            botName: 'Foxíček',
+            language: 'czech',
+            chatLink: 'https://psychoussvk.github.io/FreeRun/Bot/Lang/Czech.json',
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupCap: 100, // 1-200
+            startupVolume: 100, // 0-100
+            startupEmoji: true, // true or false
             googleApiKey: '', // Specify the Google API key that will be used by the bot to fetch data from YouTube. Please visit https://developers.google.com/youtube/v3/getting-started#before-you-start for guidance.
             autowoot: true,
-            autoskip: false,
+            autoskip: true,
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 120,
@@ -280,9 +280,9 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
+            voteSkip: true,
             voteSkipLimit: 10,
-            historySkip: false,
+            historySkip: true,
             timeGuard: true,
             strictTimeGuard: true,
             maximumSongLength: 10,
@@ -306,7 +306,7 @@
             motdEnabled: false,
             motdInterval: 5,
             motd: 'Temporary Message of the Day',
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
