@@ -1236,16 +1236,27 @@
                 if (basicBot.settings.cmdDeletion && msg.startsWith(basicBot.settings.commandLiteral)) {
                     API.moderateDeleteChat(chat.cid);
                 }
-                /**
-                 var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+                var plugRoomLinkPatt = /(\bhttps?:\/\/(www.)?plug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
                  if (plugRoomLinkPatt.exec(msg)) {
-                    if (perm === API.ROLE.NONE) {
+                    if (perm === 0) {
                         API.sendChat(subChat(basicBot.chat.roomadvertising, {name: chat.un}));
+                        API.moderateBanUser(user.id, 1, API.BAN.PERMA);
                         API.moderateDeleteChat(chat.cid);
                         return true;
-                    }
+                        
+                    } 
                 }
-                 **/
+                
+                 var plugRoomLinkPatt = /(\bplug\.dj[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+                 if (plugRoomLinkPatt.exec(msg)) {
+                    if (perm === 0) {
+                        API.sendChat(subChat(basicBot.chat.roomadvertising, {name: chat.un}));
+                        API.moderateBanUser(user.id, 1, API.BAN.PERMA);
+                        API.moderateDeleteChat(chat.cid);
+                        return true;
+                        
+                    } 
+                }
                 if (msg.indexOf('http://adf.ly/') > -1) {
                     API.moderateDeleteChat(chat.cid);
                     API.sendChat(subChat(basicBot.chat.adfly, {
@@ -1818,6 +1829,54 @@
                     }
                 }
             },
+alkoholCommand: {
+                command: ['alkohol', 'alcohol'],
+                rank: 'user',
+                type: 'startsWith',
+                getALKOHOLY: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.alkoholy.length);
+                    return basicBot.chat.alkoholy[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givealkohol);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouseralkohol, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfalkohol, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.alkohol, {nameto: user.username, namefrom: chat.un, ALKOHOLY: this.getALKOHOLY()}));
+                            }
+                        }
+                    }
+                }
+            },
+
+            afkCommand: {
+                command: 'afk',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(subChat(basicBot.chat.afk, {name: chat.un}));
+                    }
+                }
+            },
 
             baCommand: {
                 command: 'ba',
@@ -1852,6 +1911,41 @@
                             question: argument,
                             response: basicBot.chat.balls[randomBall]
                         }));
+                    }
+                }
+            },
+bitchCommand: {
+                command: 'bitch',
+                rank: 'user',
+                type: 'startsWith',
+                getbitches: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.bitches.length);
+                    return basicBot.chat.bitches[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givebitch);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserbitch, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfbitch, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.bitch, {nameto: user.username, namefrom: chat.un, BITCHES: this.getbitches()}));
+                            }
+                        }
                     }
                 }
             },
@@ -2423,6 +2517,76 @@
                     }
                 }
             },
+fackaCommand: {
+                command: ['facka', 'slap'],
+                rank: 'user',
+                type: 'startsWith',
+                getfacka: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.facky.length);
+                    return basicBot.chat.facky[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givefacka);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserfacka, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selffacka, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.facka, {nameto: user.username, namefrom: chat.un, FACKY: this.getfacka()}));
+                            }
+                        }
+                    }
+                }
+            },
+fuckCommand: {
+                command: 'fuck',
+                rank: 'user',
+                type: 'startsWith',
+                getfucks: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.fucks.length);
+                    return basicBot.chat.fucks[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givefuck);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserfuck, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selffuck, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.fuck, {nameto: user.username, namefrom: chat.un, FUCKS: this.getfucks()}));
+                            }
+                        }
+                    }
+                }
+            },
 
             filterCommand: {
                 command: 'filter',
@@ -2586,6 +2750,41 @@
                     }
                 }
             },
+hugCommand: {
+                command: 'hug',
+                rank: 'user',
+                type: 'startsWith',
+                gethugs: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.hugs.length);
+                    return basicBot.chat.hugs[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givehug);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserhug, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfhug, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.hug, {nameto: user.username, namefrom: chat.un, HUGS: this.gethugs()}));
+                            }
+                        }
+                    }
+                }
+            },
 
             historyskipCommand: {
                 command: 'historyskip',
@@ -2730,6 +2929,41 @@
                     }
                 }
             },
+koupitCommand: {
+                command: ['koupit', 'buy'],
+                rank: 'user',
+                type: 'startsWith',
+                getobchod: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.obchod.length);
+                    return basicBot.chat.obchod[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givekoupit);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserkoupit, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfkoupit, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.koupit, {nameto: user.username, namefrom: chat.un, OBCHOD: this.getobchod()}));
+                            }
+                        }
+                    }
+                }
+            },
 
             languageCommand: {
                 command: 'language',
@@ -2760,6 +2994,76 @@
                                 }));
                             }
                         });
+                    }
+                }
+            },
+loveCommand: {
+                command: 'love',
+                rank: 'user',
+                type: 'startsWith',
+                getlaska: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.laska.length);
+                    return basicBot.chat.laska[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givelove);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserlove, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selflove, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.love, {nameto: user.username, namefrom: chat.un, LASKA: this.getlaska()}));
+                            }
+                        }
+                    }
+                }
+            },
+luluCommand: {
+                command: 'lulu',
+                rank: 'user',
+                type: 'startsWith',
+                getlulus: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.lulus.length);
+                    return basicBot.chat.lulus[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givelulu);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserlulu, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selflulu, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.lulu, {nameto: user.username, namefrom: chat.un, LULUS: this.getlulus()}));
+                            }
+                        }
                     }
                 }
             },
@@ -3353,6 +3657,41 @@
                             mehs: mehs,
                             grabs: grabs
                         }));
+                    }
+                }
+            },
+sklepCommand: {
+                command: ['sklep', 'cellar'],
+                rank: 'user',
+                type: 'startsWith',
+                getsklepovky: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.sklepovky.length);
+                    return basicBot.chat.sklepovky[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givesklep);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nousersklep, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfsklep, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.sklep, {nameto: user.username, namefrom: chat.un, SKLEPOVKY: this.getsklepovky()}));
+                            }
+                        }
                     }
                 }
             },
@@ -4061,7 +4400,7 @@
             },
 
             websiteCommand: {
-                command: 'website',
+                command: 'website, web',
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -4096,6 +4435,53 @@
                                 name: chat.un,
                                 'function': basicBot.chat.welcomemsg
                             }));
+                        }
+                    }
+                }
+            },
+zpetCommand: {
+                command: 'zpet',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                      API.sendChat(subChat(basicBot.chat.zpet, {name: chat.un}));  
+                    }
+                }
+            },
+zvireCommand: {
+                command: ['zvire', 'animal'],
+                rank: 'user',
+                type: 'startsWith',
+                getanimal: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.animal.length);
+                    return basicBot.chat.animal[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.givezvire);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserzvire, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfzvire, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.zvire, {nameto: user.username, namefrom: chat.un, ANIMAL: this.getanimal()}));
+                            }
                         }
                     }
                 }
