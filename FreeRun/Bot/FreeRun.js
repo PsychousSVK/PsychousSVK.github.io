@@ -263,7 +263,7 @@
             scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 100, // 1-200
-            startupVolume: 100, // 0-100
+            startupVolume: 15, // 0-100
             startupEmoji: true, // true or false
             googleApiKey: '', // Specify the Google API key that will be used by the bot to fetch data from YouTube. Please visit https://developers.google.com/youtube/v3/getting-started#before-you-start for guidance.
             autowoot: true,
