@@ -1,1 +1,438 @@
-# PsychousSVK.github.io
+┌————————————————————┐
+│     Role: NONE     │
+└————————————————————┘
+ --[MENTION]-- */
+#chat .cm.mention span {
+    color: hsl(60, 70%, 50%);
+}
+
+#chat .cm.mention .name {
+    color: hsl(60, 80%, 50%);
+}
+
+#chat .cm.mention .timestamp {
+    color: hsl(60, 80%, 50%);
+}
+
+/*
+ ┌————————————————————┐
+ │     Role: YOU      │
+ └————————————————————┘
+*/
+.is-you .name,
+#chat .cm.role-you .un {
+    color: hsl(200, 100%, 50%);
+}
+
+#chat .mention.is-you .name {
+    color: hsl(200, 100%, 40%) !important;
+}
+
+#chat .mention.is-you .timestamp {
+    color: hsl(200, 100%, 40%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: FRIEND     │
+ └————————————————————┘
+*/
+#chat .cm.role-friend .un {
+    color: hsl(80, 60%, 50%);
+}
+
+#chat .mention.role-friend .name {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+#chat .mention.role-friend .timestamp {
+    color: hsl(80, 60%, 60%) !important;
+}
+
+┌————————————————————┐
+│  Role: SILVERSUB   │
+└————————————————————┘
+*/
+.icon-chat-silver-subscriber {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -120px !important;
+}
+
+#user-rollover .meta.silversubscriber .status i {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -120px !important;
+}
+
+.icon-chat-silver-subscriber ~ span {
+    color: #8F96A3 !important;
+}
+
+#user-rollover .meta.silversubscriber .status span {
+    color: #8F96A3 !important;
+}
+
+#chat .mention.role-silver-subscriber .name {
+    color: hsl(219, 12%, 60%) !important;
+}
+
+#chat .mention.role-silver-subscriber .timestamp {
+    color: hsl(219, 12%, 60%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: GOLDSUB    │
+ └————————————————————┘
+*/
+.icon-chat-subscriber {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -105px !important;
+}
+
+#user-rollover .meta.subscriber .status i {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -105px !important;
+}
+
+.icon-chat-subscriber ~ span {
+    color: #979140 !important;
+}
+
+#user-rollover .meta.subscriber .status span {
+    color: #979140 !important;
+}
+
+#chat .mention.role-subscriber .name {
+    color: hsl(56, 58%, 42%) !important;
+}
+
+#chat .mention.role-subscriber .timestamp {
+	color: hsl(56, 58%, 42%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: RES. DJ    │
+ └————————————————————┘
+*/
+.icon-chat-dj {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -90px !important;
+}
+
+.icon-chat-dj ~ span {
+    color: #FF00FF !important;
+}
+
+#dialog-user-role .role-menu .menu ul .dj span {
+    color: #FF00FF !important;
+}
+
+#chat .mention.role-dj .name {
+    color: hsl(300°, 100%, 50%) !important;
+}
+
+#chat .mention.role-dj .timestamp {
+    color: hsl(300°, 100%, 50%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: BOUNCER    │
+ └————————————————————┘
+*/
+.icon-chat-bouncer {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -75px !important;
+}
+
+.icon-chat-bouncer ~ span {
+    color: #FFC000 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .bouncer span {
+    color: #FFC000 !important;
+}
+
+#chat .mention.role-bouncer .name {
+    color: #FFC000 !important;
+}
+
+#chat .mention.role-bouncer .timestamp {
+    color: #FFC000 !important;
+}
+
+*
+ ┌————————————————————┐
+ │   Role: MANAGER    │
+ └————————————————————┘
+*/
+.icon-chat-manager {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -60px !important;
+}
+
+.icon-chat-manager ~ span {
+    color: #FF8000 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #FF8000 !important;
+}
+
+#chat .mention.role-manager .name {
+    color: #FF8000 !important;
+}
+
+#chat .mention.role-manager .timestamp {
+    color: #FF8000 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: CO-HOST    │
+ └————————————————————┘
+*/
+.icon-chat-cohost {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -45px !important;
+}
+
+.icon-chat-cohost ~ span {
+    color: #FF0000 !important;
+}
+
+#dialog-user-role .dialog-body .role-menu .menu ul .cohost span {
+    color: #FF0000 !important;
+}
+
+.role-cohost .un {
+    color: #FF0000 !important;
+}
+
+#chat .mention.role-cohost .name {
+    color: hsl(0°, 100%, 50%) !important;
+}
+
+#chat .mention.role-cohost .timestamp {
+    color: hsl(0°, 100%, 50%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │     Role: HOST     │
+ └————————————————————┘
+*/
+.icon-chat-host {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -30px !important;
+}
+
+.icon-chat-host ~ span {
+    color: #FF0000 !important;
+}
+
+#dialog-user-role .role-menu .menu ul .host span {
+    color: #FF0000 !important;
+}
+
+#chat .mention.role-host .name {
+    color: hsl(0°, 100%, 50%) !important;
+}
+
+#chat .mention.role-host .timestamp {
+    color: hsl(0°, 100%, 50%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    gRole: PLOT     │
+ └————————————————————┘
+*/
+.icon-chat-plot {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Plot.png) -15px !important;
+}
+
+.icon-chat-plot ~ span {
+    color: #E67E22 !important;
+}
+
+#chat .role-plot .un {
+    color: #E67E22 !important;
+}
+
+#chat .mention.role-plot .name {
+    color: #E67E22 !important;
+}
+
+#chat .mention.role-plot .timestamp {
+    color: #E67E22 !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   Role: PROMOTER   │
+ └————————————————————┘
+*/
+.icon-chat-promoter {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Promoter.png) -15px !important;
+}
+
+.icon-chat-promoter ~ span {
+    color: #1ABC9C !important;
+}
+
+#chat .role-promoter .un {
+    color: #1ABC9C !important;
+}
+
+#chat .mention.role-promoter .name {
+    color: #1ABC9C !important;
+}
+
+#chat .mention.role-promoter .timestamp {
+    color: #1ABC9C !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   gRole: SITEMOD   │
+ └————————————————————┘
+*/
+.icon-chat-sitemod {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Sitemoderator.png) -15px !important;
+}
+
+.icon-chat-sitemod ~ span {
+    color: #E74C3C !important;
+}
+
+#chat .role-sitemod .un {
+    color: #E74C3C !important;
+}
+
+#chat .mention.role-sitemod .name {
+    color: #E74C3C !important;
+}
+
+#chat .mention.role-sitemod .timestamp {
+    color: #E74C3C!important;
+}
+
+/*
+ ┌————————————————————┐
+ │    gRole: BA       │
+ └————————————————————┘
+*/
+.icon-chat-ambassador {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) -15px !important;
+}
+
+.icon-chat-ambassador ~ span {
+    color: hsl(99°, 39%, 58%) !important;
+}
+
+#chat .role-ambassador .un {
+    color: hsl(99°, 39%, 58%) !important;
+}
+
+#chat .mention.role-ambassador .name{
+    color: hsl(99°, 39%, 58%) !important;
+}
+
+#chat .mention.role-ambassador .timestamp {
+    color: hsl(99°, 39%, 58%) !important;
+}
+
+/*
+ ┌————————————————————┐
+ │   gRole: ADMIN     │
+ └————————————————————┘
+*/
+.icon-chat-admin {
+    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Ranks.png) 0 !important;
+}
+
+.icon-chat-admin ~ span {
+    color: #42A5DC !important;
+}
+
+#chat .role-admin .un {
+    color: #42A5DC !important;
+}
+
+#chat .mention.role-admin .name {
+    color: #42A5DC !important;
+}
+
+#chat .mention.role-admin .timestamp {
+    color: #42A5DC !important;
+}
+
+/*
+ ┌————————————————————┐
+ │    Users-list      │
+ └————————————————————┘
+ Needs to be in this order &
+ separated from roles to
+ maintain correct priorities */
+/* Host */
+#user-lists .group.host {
+    color: #FF0000;
+    background: linear-gradient(to right, hsla(0°, 100%, 50%, 0.25), hsla(0°, 100%, 50%, 0.5)) !important;
+    top: 1px;
+}
+
+/* Only make the First user the host to have as many co-hosts as you want */
+#user-lists .group.host ~ .user:nth-child(2) .name {
+	color: #FF0000;
+}
+
+/* Co-hosts */
+#user-lists .group.host ~ .user .name {
+    color: #FF0000;
+}
+
+/* Managers */
+#user-lists .group.manager {
+    color: #FF8000;
+    background: linear-gradient(to right, hsla(30°, 100%, 50%, 0.25), hsla(30°, 100%, 50%, 0.5)) !important;
+}
+
+#user-lists .group.manager ~ .user .name {
+    color: #FF8000;
+}
+
+/* Bouncers */
+#user-lists .group.bouncer {
+    color: #FFC000;
+    background: linear-gradient(to right, hsla(45°, 100%, 50%, 0.25), hsla(45°, 100%, 50%, 0.5)) !important;
+}
+
+#user-lists .group.bouncer ~ .user .name {
+    color: #FFC000;
+}
+
+/* DJs */
+#user-lists .group.dj {
+    color: #FF00FF;
+    background: linear-gradient(to right, hsla(300°, 100%, 50%, 0.25), hsla(300°, 100%, 50%, 0.5)) !important;
+}
+
+#user-lists .group.dj ~ .user .name {
+    color: #FF00FF;
+}
+
+/*
+ ┌————————————————————┐
+ │   Miscellaneous    │
+ └————————————————————┘
+*/
+#chat .cm.mention .msg {
+    /*fix RCS*/
+    background: none !important;
+}
+
+#user-lists .group {
+    border: none !important;
+    box-shadow: 0 0 1px 1px;
+}
+
+#waitlist .list .user .name i {
+    display: block; /* sub is display:none wtf plug ? */
+}
+
+.community__right-bar .friends .list .row.is-offline {
+    filter: saturate(.5);
+} 
