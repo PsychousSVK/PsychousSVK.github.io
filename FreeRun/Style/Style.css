@@ -1088,9 +1088,9 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.welcome .text {
     font-family: 'Open Sans';
     font-size: 1.2em;
-    border: 1px dashed rgba(199, 63, 63, 0.5);
+    border: 1px dashed rgba(199, 63, 63, 0.1);
     padding: 10px;
-    color: rgba(199, 63, 63, 0.75);
+    color: rgba(199, 63, 63, 0.1);
     text-align: left
 }
 
