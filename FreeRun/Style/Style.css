@@ -359,15 +359,15 @@
 }
 
 #dashboard .genres__menu-content .genres__menu .genre.active {
-    color: #404497
+    color: #EB3131
 }
 
 #dashboard .genres__menu-content .genres__menu .genre:hover {
-    color: #404497
+    color: #EB3131
 }
 
 #dashboard .search__box .dashboard__title .number {
-    color: #404497
+    color: #EB3131
 }
 
 #dashboard .search__box .dropdown2 .text-container {
@@ -409,11 +409,11 @@
 }
 
 #dashboard .tab-menu button.selected {
-    border-color: #404497 !important
+    border-color: #EB3131 !important
 }
 
 #user-view .tab-menu button.selected {
-    border-color: #404497 !important
+    border-color: #EB3131 !important
 }
 
 #history-panel {
@@ -477,11 +477,11 @@
 }
 
 .jspPane .cell .meta .join:hover {
-    box-shadow: inset 0 0 0 1px #404497
+    box-shadow: inset 0 0 0 1px #EB3131
 }
 
 .jspPane .cell .meta .room {
-    color: #404497 !important;
+    color: #EB3131 !important;
     text-shadow: 0 0 5px #000
 }
 
@@ -642,11 +642,11 @@
 }
 
 #playlist-panel #media-panel .actions .action:hover {
-    color: #404497 !important
+    color: #EB3131 !important
 }
 
 #playlist-panel #search-suggestion .query {
-    color: #404497 !important
+    color: #EB3131 !important
 }
 
 #playlist-panel #media-panel .actions {
@@ -664,19 +664,19 @@
 }
 
 #playlist-panel #playlist-activate-button.active {
-    border-color: #404497 !important
+    border-color: #EB3131 !important
 }
 
 #playlist-panel #playlist-activate-button.active .icon-playlist {
-    color: #404497 !important
+    color: #EB3131 !important
 }
 
 #playlist-panel #playlist-activate-button.active>span {
-    color: #404497 !important
+    color: #EB3131 !important
 }
 
 #playlist-panel #playlist-menu .menu .row .activate-button .icon-playlist.active {
-    color: #404497 !important
+    color: #EB3131 !important
 }
 
 #playlist-panel #playlist-menu .menu .row.selected {
@@ -882,7 +882,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .dj-button--desktop .btn-no-dj-secondary:hover {
-    box-shadow: 0 0 5px 1px #404497
+    box-shadow: 0 0 5px 1px #EB3131
 }
 
 .community .left-side-wrapper .community__meta {
@@ -1013,7 +1013,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .button.selected {
-    border-bottom: 2px solid #404497 !important
+    border-bottom: 2px solid #EB3131 !important
 }
 
 .community .right-side-wrapper .community__right-bar #waitlist .friends.has-requests .header {
@@ -1068,7 +1068,7 @@
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.mention.role-host {
     background:linear-gradient(340deg,rgba(199, 63, 63, 0.25),transparent 80%);
-    box-shadow: 0 1px 0 0 #8000FF,0 -1px 0 0 #404497
+    box-shadow: 0 1px 0 0 #8000FF,0 -1px 0 0 #EB3131
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.id-40796598 {
