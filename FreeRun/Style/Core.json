@@ -29,15 +29,15 @@
     "images": {
         "background": "https://i.imgur.com/W0dhZa0.jpg",
         "playback": null,
-        "admin": null,
-        "ambassador": null,
-        "host": null,
-        "cohost": null,
-        "manager": null,
-        "bouncer": null,
-        "rdj": null,
-        "subscriber": null,
-        "silversubscriber": null
+        "admin": "https://PsychousSvK.github.io/FreeRun/Icons/Admin.png",
+        "ambassador": "https://PsychousSvK.github.io/FreeRun/Icons/Brandambassador.png",
+        "host": "https://PsychousSvK.github.io/FreeRun/Icons/Host.png",
+        "cohost": "https://PsychousSvK.github.io/FreeRun/Icons/Cohost.png",
+        "manager": "https://PsychousSvK.github.io/FreeRun/Icons/Manager.png",
+        "bouncer": "https://PsychousSvK.github.io/FreeRun/Icons/Bouncer.png",
+        "rdj": "https://PsychousSvK.github.io/FreeRun/Icons/ResidentDJ.png",
+        "subscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Subscriber.png",
+        "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Silversubscriber.png"
     },
     "emotes": {
     	"anelepls": "https://PsychousSvK.github.io/Christmas/Emotes/ANELEpls.gif",
