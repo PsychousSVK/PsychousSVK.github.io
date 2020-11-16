@@ -1609,12 +1609,12 @@ li.community__player-item.volume {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: url(https://PsychousSvK.github.io/FreeRun/Icons/Clearchat.png);
+    background: url('https://PsychousSvK.github.io/FreeRun/Icons/Clearchat.png') !important;
 }
 
 .icon-radiant-rcsclearchat {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: url(https://PsychousSvK.github.io/FreeRun/Icons/RCSclearchat.png);
+    background: url('https://PsychousSvK.github.io/FreeRun/Icons/RCSclearchat.png') !important;
 }
