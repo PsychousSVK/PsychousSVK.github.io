@@ -2,7 +2,7 @@
     "room": "FreeRun CZ/SK",
     "author": "DeathVolkov",
     "icon": null,
-    "css": null,
+    "css": "https://PsychousSvK.github.io/FreeRun/Style/Style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
