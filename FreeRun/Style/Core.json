@@ -27,8 +27,8 @@
         "user": null
     },
     "images": {
-        "background": "https://i.imgur.com/W0dhZa0.jpg",
-        "playback": null,
+        "background": "https://PsychousSvK.github.io/FreeRun/Icons/FreeRun.jpg",
+        "playback": "https://PsychousSvK.github.io/FreeRun/Icons/FreeRunPlayback.png",
         "admin": "https://PsychousSvK.github.io/FreeRun/Icons/Admin.png",
         "ambassador": "https://PsychousSvK.github.io/FreeRun/Icons/Brandambassador.png",
         "host": "https://PsychousSvK.github.io/FreeRun/Icons/Host.png",
