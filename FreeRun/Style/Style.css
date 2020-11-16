@@ -1068,7 +1068,7 @@
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.mention.role-host {
     background:linear-gradient(340deg,rgba(199, 63, 63, 0.25),transparent 80%);
-    box-shadow: 0 1px 0 0 #8000FF,0 -1px 0 0 #EB3131
+    box-shadow: 0 1px 0 0 #EB3131,0 -1px 0 0 #EB3131
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.id-40796598 {
