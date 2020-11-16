@@ -270,7 +270,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(255, 255, 255, 1)
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea:-ms-input-placeholder {
@@ -306,7 +306,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(255, 255, 255, 1)
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea::-ms-input-placeholder {
@@ -342,7 +342,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(255, 255, 255, 1)
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea::placeholder {
