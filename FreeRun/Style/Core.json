@@ -16,7 +16,7 @@
     "ccc": {
         "admin": "#42A5DC",
         "ambassador": "#89BE6C",
-        "sitemoderator": "#89BE6C",
+        "sitemod": "#89BE6C",
         "promoter": "#1ABC9C",
         "plot": "#E67E22",
         "host": "#FF0000",
