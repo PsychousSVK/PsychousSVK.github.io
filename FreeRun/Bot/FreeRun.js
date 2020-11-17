@@ -245,7 +245,7 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '3.13.3',
+        version: '3.13.4',
         status: false,
         name: 'Foxíček',
         loggedInID: null,
@@ -303,9 +303,9 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: false,
-            motdInterval: 5,
-            motd: 'Temporary Message of the Day',
+            motdEnabled: true,
+            motdInterval: 30,
+            motd: 'Náš discord server: https://discord.gg/upctSXeV9m',
             filterChat: false,
             etaRestriction: false,
             welcome: true,
@@ -317,7 +317,7 @@
             website: null,
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: '!',
             blacklists: {
                 NSFW: 'https://raw.githack.com/basicBot/custom/master/blacklists/NSFWlist.json',
