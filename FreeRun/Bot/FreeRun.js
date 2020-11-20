@@ -245,12 +245,12 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '3.13.6',
+        version: '3.13.7',
         status: false,
         name: 'Foxíček',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
-        cmdLink: 'http://git.io/245Ppg',
+        cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/FreeRun/Bot/Commands.md',
         chatLink: 'https://psychoussvk.github.io/FreeRun/Bot/Lang/Czech.json',
         chat: null,
         loadChat: loadChat,
