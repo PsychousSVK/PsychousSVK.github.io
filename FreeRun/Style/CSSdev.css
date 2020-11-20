@@ -34,3 +34,7 @@
 #user-rollover.id-40796598 .info .role span:after {
     content: ' / Manager';
 }
+
+#user-rollover.id-4690413 .info .role span:after {
+    content: ' / ResidentDJ';
+}
