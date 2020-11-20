@@ -290,7 +290,7 @@
 }
 
 .icon-chat-promoter ~ span {
-    color: #1ABC9C !important;
+    color: #1ABC9C;
 }
 
 #chat .role-promoter .un {
@@ -298,11 +298,11 @@
 }
 
 #chat .mention.role-promoter .name {
-    color: #1ABC9C !important;
+    color: #1ABC9C;
 }
 
 #chat .mention.role-promoter .timestamp {
-    color: #1ABC9C !important;
+    color: #1ABC9C;
 }
 
 /*
