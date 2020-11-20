@@ -325,7 +325,7 @@
     "website": "/me Prosím navštivte naše webové stránky:  http://tinyurl.com/gs88g43",
     "youtube": "/me [%%NAME%%] Dejte nám odběr na youtube: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
-    "prikazy": "/me Seznam NerdiikBot příkazů: http://tinyurl.com/zklf23k",
+    "prikazy": "/me Seznam Free Run příkazů: https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/FreeRun/Bot/Commands.md",
     "thorNotClose": "\/me @%%NAME%%, you're not worthy of getting close to the hammer!",
     "thorcd": "\/me @%%NAME%% you can try to lift the hammer in %%TIME%% minutes.",
     "thorWorthy": "\/me @%%NAME%% you're worthy of the hammer :hammer:, congratulations!",
