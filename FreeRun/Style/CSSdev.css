@@ -30,3 +30,7 @@
     color: #FC4949;
     font-size: 10px;
 }
+
+#user-rollover.id-40796598 .info .role span:after {
+    content: ' / Manager';
+}
