@@ -188,7 +188,7 @@
     "bouncer": "Bot nemůže přesouvat lidi, když je spuštěn jako vyhazovač.",
     "online": "/me %%BOTNAME%% v%%VERSION%% je online!",
     "welcome": "/me Vítej @%%NAME%%",
-    "welcomeback": "/me Vítej zpět, @%%NAME%%",
+    "welcomeback": null,
     "songknown": "/me @%%NAME%%, tato skladba je již v DJ historii.",
     "notavailable": "/me @%%NAME%%, skladba, kterou jsi hrál/a, nebyla dostupná.",
     "timelimit": "/me @%%NAME%%, tvoje skladba je delší než %%MAXLENGTH%% minut, potřebuješ svolení hrát delší skladby.",
