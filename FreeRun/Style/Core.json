@@ -46,13 +46,15 @@
         "silversubscriber": "https://PsychousSvK.github.io/WolfsBurrow/Icons/Silversubscriber.png"
     },
     "emotes": {
-    	"anelepls": "https://PsychousSvK.github.io/Christmas/Emotes/ANELEpls.gif",
-        "xqcdj": "https://PsychousSvK.github.io/Christmas/Emotes/XQCdj.gif",
-        "kyperkong": "https://PsychousSvK.github.io/Christmas/Emotes/Kyperkong.gif",
-        "clap": "https://PsychousSvK.github.io/Christmas/Emotes/Clap.gif",
-        "peepohey": "https://PsychousSvK.github.io/Christmas/Emotes/Peepohey.gif",
-        "peepoily": "https://PsychousSvK.github.io/Christmas/Emotes/PeepoILY.gif",
-        "pepejammy": "https://PsychousSvK.github.io/Christmas/Emotes/PepeJAMMY.gif",
-        "catjam": "https://PsychousSvK.github.io/Christmas/Emotes/CatJAM.gif"
+    	"anelepls": "https://PsychousSvK.github.io/FreeRun/Emotes/ANELEpls.gif",
+        "xqcdj": "https://PsychousSvK.github.io/FreeRun/Emotes/XQCdj.gif",
+        "kyperkong": "https://PsychousSvK.github.io/FreeRun/Emotes/Kyperkong.gif",
+        "clap": "https://PsychousSvK.github.io/FreeRun/Emotes/Clap.gif",
+        "peepohey": "https://PsychousSvK.github.io/FreeRun/Emotes/Peepohey.gif",
+        "peepoily": "https://PsychousSvK.github.io/FreeRun/Emotes/PeepoILY.gif",
+        "pepejammy": "https://PsychousSvK.github.io/FreeRun/Emotes/PepeJAMMY.gif",
+        "catjam": "https://PsychousSvK.github.io/FreeRun/Emotes/CatJAM.gif",
+        "pressf": "https://PsychousSvK.github.io/FreeRun/Emotes/PressF.gif",
+        "forsencoomer": "https://PsychousSvK.github.io/FreeRun/Emotes/ForsenCoomer.gif"
     }
 }
