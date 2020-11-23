@@ -24,7 +24,7 @@
         "manager": "#FF8000",
         "bouncer": "#FFC000",
         "rdj": "#FF00FF",
-        "subscriber": "#979140",
+        "subscriber": "#C59840",
         "silversubscriber": "#8F96A3",
         "friend": null,
         "user": null
@@ -34,9 +34,6 @@
         "playback": "https://PsychousSvK.github.io/FreeRun/Icons/FreeRunPlayback.png",
         "admin": "https://PsychousSvK.github.io/FreeRun/Icons/Admin.png",
         "ambassador": "https://PsychousSvK.github.io/FreeRun/Icons/Brandambassador.png",
-        "sitemod": "https://PsychousSvK.github.io/FreeRun/Icons/Sitemoderator.png",
-        "promoter": "https://PsychousSvK.github.io/FreeRun/Icons/Promoter.png",
-        "plot": "https://PsychousSvK.github.io/FreeRun/Icons/Plot.png",
         "host": "https://PsychousSvK.github.io/FreeRun/Icons/Host.png",
         "cohost": "https://PsychousSvK.github.io/FreeRun/Icons/Cohost.png",
         "manager": "https://PsychousSvK.github.io/FreeRun/Icons/Manager.png",
