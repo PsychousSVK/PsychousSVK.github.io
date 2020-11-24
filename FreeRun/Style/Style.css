@@ -147,11 +147,11 @@
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
 ::-moz-selection {
-    background:rgba(199, 63, 63, 0.25)
+    background:rgba(199, 63, 63, 0.75)
 }
 
 ::selection {
-    background:rgba(199, 63, 63, 0.25)
+    background:rgba(199, 63, 63, 0.75)
 }
 
 ::-webkit-scrollbar {
@@ -159,7 +159,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(199, 63, 63, 0.25) !important;
+    background: rgba(199, 63, 63, 0.75) !important;
     border-radius: 2px;
     box-shadow: inset 0 0 0 1px rgba(0, 0 ,0,.8)
 }
@@ -179,7 +179,7 @@
 }
 
 .jspTrack .jspDrag {
-    background: rgba(199, 63, 63, 0.25);
+    background: rgba(199, 63, 63, 0.75);
     box-shadow: inset 0 0 0 3px rgba(86, 36, 36, 0.8);
     border-radius: 6px
 }
@@ -187,7 +187,7 @@
 #rcs-newmessages {
     border: 0;
     padding: 5px 3px;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25);
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75);
     background: rgba(86, 36, 36, 0.8) !important
 }
 
@@ -198,39 +198,39 @@
 #dashboard #dashboard-search {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important;
     border-radius: 5px
 }
 
 #dashboard .search {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important;
     border-radius: 6px
 }
 
 #dashboard #dashboard-search textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #filter-bar textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-bar textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-menu textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #user-view .search-box .search textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea::-webkit-input-placeholder {
@@ -238,35 +238,35 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background textarea::-webkit-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard #dashboard-search textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #filter-bar textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-bar textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-menu textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #user-view .search-box .search textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea:-ms-input-placeholder {
@@ -274,35 +274,35 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background textarea:-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard #dashboard-search textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #filter-bar textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 6363, 105, 199, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-bar textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-menu textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #user-view .search-box .search textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea::-ms-input-placeholder {
@@ -310,35 +310,35 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background textarea::-ms-input-placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
     
 #dashboard #dashboard-search textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #filter-bar textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-bar textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #search #search-menu textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #user-view .search-box .search textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-input textarea::placeholder {
@@ -346,11 +346,11 @@
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .input-background textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background textarea::placeholder {
-    color: rgba(199, 63, 63, 0.25)
+    color: rgba(199, 63, 63, 0.75)
 }
 
 #dashboard #dashboard-search:focus-within {
@@ -371,8 +371,8 @@
 }
 
 #dashboard .search__box .dropdown2 .text-container {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 249%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 249%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search__box .dropdown2 .button {
@@ -380,13 +380,13 @@
 }
 
 #dashboard .search__box .dropdown2 .dropdown2-menu {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 249%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 249%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.75)
 }
 
 .jspPane .cell:hover>.meta {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 249%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 249%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .search.focused {
@@ -395,17 +395,17 @@
 }
 
 #dashboard .genres__menu-content {
-    border-color:rgba(199, 63, 63, 0.25)
+    border-color:rgba(199, 63, 63, 0.75)
 }
 
 #dashboard .dashboard__communities_panel {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 #dialog-container .dialog {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 #dashboard .tab-menu button.selected {
@@ -421,32 +421,32 @@
 }
 
 .jspPane .list .row {
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.5);
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75);
     background: rgba(20, 30, 40, 0.8) !important
 }
 
 .jspPane .list .row .buttons .positive {
-    background: rgba(199, 63, 63, 0.5) !important
+    background: rgba(199, 63, 63, 0.75) !important
 }
 
 .jspPane .list .row .buttons .negative {
-    background: rgba(86, 36, 36, 0.25) !important
+    background: rgba(86, 36, 36, 0.50) !important
 }
 
 .jspPane .cell {
-    border: 1px solid rgba(199, 63, 63, 0.25)
+    border: 1px solid rgba(199, 63, 63, 0.75)
 }
 
 .jspPane .cell .community-box__overlay a {
-    color: rgba(199, 63, 63, 0.5) !important
+    color: rgba(199, 63, 63, 0.75) !important
 }
 
 .jspPane .cell .community-box__overlay i {
-    color: rgba(199, 63, 63, 0.5) !important
+    color: rgba(199, 63, 63, 0.75) !important
 }
 
 .jspPane .cell .community-box__overlay p {
-    color: rgba(199, 63, 63, 0.5) !important
+    color: rgba(199, 63, 63, 0.75) !important
 }
 
 .jspPane .cell {
@@ -471,8 +471,8 @@
 
 .jspPane .cell .meta .join {
     background: 0 0 !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25);
-    color: rgba(199, 63, 63, 0.5) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75);
+    color: rgba(199, 63, 63, 0.75) !important;
     border-radius: 25px
 }
 
@@ -486,7 +486,7 @@
 }
 
 #dialog-container .dialog .button.submit {
-    background:rgba (199, 63, 63, 0.25)
+    background:rgba (199, 63, 63, 0.75)
 }
 
 #dialog-container .dialog .button.cancel {
@@ -496,19 +496,19 @@
 #playlist-panel #search #filter-bar {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25)!important
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75)!important
 }
 
 #playlist-panel #search #search-bar {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25)!important
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75)!important
 }
 
 #playlist-panel #search #search-menu {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25)!important
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75)!important
 }
 
 #user-view {
@@ -518,7 +518,7 @@
 #user-view .search-box .search {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25)!important
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75)!important
 }
 
 #playlist-panel #search #filter-bar.focused {
@@ -548,7 +548,7 @@
 
 #user-view #the-user-profile .blurb .box {
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25) !important
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important
 }
 
 #user-view #the-user-profile .blurb .arrow-up {
@@ -558,7 +558,7 @@
 #user-view #the-user-profile .blurb .arrow-up:after {
     content: "";
     border: 7px solid transparent;
-    border-bottom-color: rgba(199, 63, 63, 0.25);
+    border-bottom-color: rgba(199, 63, 63, 0.75);
     position: absolute;
     top: -8px;
     left: -7px;
@@ -575,22 +575,22 @@
     
 #playlist-panel #playlist-menu {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25)!important
+    border: 1px solid rgba(199, 63, 63, 0.75)!important
 }
 
 #user-view #user-menu {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25)!important
+    border: 1px solid rgba(199, 63, 63, 0.75)!important
 }
 
 #user-view .jspContainer .jspPane .cell {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25)!important
+    border: 1px solid rgba(199, 63, 63, 0.75)!important
 }
 
 .popover .share-room {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25)!important
+    border: 1px solid rgba(199, 63, 63, 0.75)!important
 }
 
 #user-view #user-menu .avatar {
@@ -598,18 +598,18 @@
 }
 
 #user-view #user-menu .item:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 250%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 250%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.50)
 }
 
 #user-view .dropdown dd .row:hover {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 250%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 250%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.50)
 }
 
 #user-view .dropdown dt {
-    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.25) 250%) !important;
-    border: 1px solid rgba(199, 63, 63, 0.5)
+    background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 63, 0.75) 250%) !important;
+    border: 1px solid rgba(199, 63, 63, 0.50)
 }
 
 #user-view #user-menu .item.selected {
@@ -652,11 +652,11 @@
 #playlist-panel #media-panel .actions {
     transition: box-shadow .4s ease-out;
     border-radius: 10px;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25)
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #media-panel .actions:hover {
-    box-shadow: inset 0 0 0 3px rgba(199, 63, 63, 0.25)
+    box-shadow: inset 0 0 0 3px rgba(199, 63, 63, 0.50)
 }
 
 #playlist-panel #search #search-menu .selected {
@@ -680,13 +680,13 @@
 }
 
 #playlist-panel #playlist-menu .menu .row.selected {
-    background-color: rgba(199, 63, 63, 0.25)
+    background-color: rgba(199, 63, 63, 0.75)
 }
 
 #playlist-panel #media-panel .media-list .row.now-playing {
-    background-color: rgba(199, 63, 63, 0.25) !important;
+    background-color: rgba(199, 63, 63, 0.75) !important;
     border: 0 !important;
-    box-shadow: inset 0 -2px 0 rgba(199, 63, 63, 0.25)
+    box-shadow: inset 0 -2px 0 rgba(199, 63, 63, 0.50)
 }
 
 #user-rollover:not(.chat) .arrow-down {
@@ -695,7 +695,7 @@
 
 #user-rollover:not(.chat) .arrow-down:after {
     content: "";
-    border-top: 10px solid rgba(199, 63, 63, 0.25);
+    border-top: 10px solid rgba(199, 63, 63, 0.75);
     border-right: 10px solid transparent !important;
     border-left: 10px solid transparent !important;
     border-bottom: 10px solid transparent !important;
@@ -711,22 +711,22 @@
 
 #toast-notifications .right {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 #user-rollover {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 .user-level-dropdown {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 .user-profile-dropdown {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 #user-rollover.chat .arrow-down {
@@ -737,7 +737,7 @@
     content: "";
     border-top: 10px solid transparent !important;
     border-right: 10px solid transparent !important;
-    border-left: 10px solid rgba(199, 63, 63, 0.25);
+    border-left: 10px solid rgba(199, 63, 63, 0.75);
     border-bottom: 10px solid transparent !important;
     position: absolute;
     margin-top: -10px;
@@ -758,10 +758,10 @@
 }
 
 #user-rollover .showID {
-    background: linear-gradient(to top,rgba(0, 0, 0, 0.8),rgba(100, 100, 100, 0.4));
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.4),rgba(100, 100, 100, 0.8));
     padding: 3px 8px;
     border-radius: 15px;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     font-size: .8em !important
 }
 
@@ -779,7 +779,7 @@
 }
 
 .community .left-side-wrapper .community__top {
-    background: linear-gradient(45deg,rgba(20, 30, 40, 0.8) 30%,rgba(199, 63, 63, 0.25));
+    background: linear-gradient(45deg,rgba(20, 30, 40, 0.8) 30%,rgba(199, 63, 63, 0.75));
     box-shadow: 0 1px 5px #C73F3F,inset 0 -1px #C73F3F,inset 0 6px 50px 5px #000
 }
 
@@ -845,7 +845,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .community__left-nav .nav-left__item:hover {
-    background: rgba(199, 63, 63, 0.25)
+    background: rgba(199, 63, 63, 0.75)
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .community__left-nav .nav-left__item.selected {
@@ -853,7 +853,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .room-vote--desktop {
-    border-color: rgba(199, 63, 63, 0.25)
+    border-color: rgba(199, 63, 63, 0.75)
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .room-vote--desktop:hover {
@@ -862,7 +862,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .room-vote--desktop .votes-rs {
-    border-color: rgba(199, 63, 63, 0.25);
+    border-color: rgba(199, 63, 63, 0.75);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0
 }
@@ -878,7 +878,7 @@
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .dj-button--desktop .btn-no-dj-secondary {
     border-radius: 50px;
     background-color: rgba(3, 5, 6, 0.8);
-    box-shadow: 0 0 0 1px rgba(199, 63, 63, 0.25)
+    box-shadow: 0 0 0 1px rgba(199, 63, 63, 0.75)
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .room-controls .dj-button--desktop .btn-no-dj-secondary:hover {
@@ -902,7 +902,7 @@
 }
 
 .community .left-side-wrapper .community__bottom {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #C73F3F,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
@@ -956,11 +956,11 @@
 
 .community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button {
     height: 50px;
-    border-bottom-color: rgba(199, 63, 63, 0.25) !important
+    border-bottom-color: rgba(199, 63, 63, 0.75) !important
 }
 
 .community .right-side-wrapper .community__right-bar #header-panel-bar .header-panel-button.selected {
-    background: linear-gradient(to top,rgba(199, 63, 63, 0.25),transparent);
+    background: linear-gradient(to top,rgba(199, 63, 63, 0.75),transparent);
     border-bottom:1px solid #C73F3F !important
 }
 
@@ -973,11 +973,11 @@
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .rsrow:hover {
-    background: linear-gradient(to right,rgba(199, 63, 63, 0.25),transparent) !important
+    background: linear-gradient(to right,rgba(199, 63, 63, 0.75),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .list .user:hover {
-    background: linear-gradient(to right,rgba(199, 63, 63, 0.25),transparent) !important
+    background: linear-gradient(to right,rgba(199, 63, 63, 0.75),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
@@ -987,14 +987,14 @@
 .community .right-side-wrapper .community__right-bar #user-lists .input-background {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important;
     border-radius: 5px
 }
 
 .community .right-side-wrapper .community__right-bar .friends .input-background {
     transition: all .4s ease-out;
     background-color: transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important;
     border-radius: 5px
 }
 
@@ -1009,7 +1009,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar .friends .row:not(.is-offline):hover {
-    background: linear-gradient(to right,rgba(199, 63, 63, 0.25),transparent) !important
+    background: linear-gradient(to right,rgba(199, 63, 63, 0.75),transparent) !important
 }
 
 .community .right-side-wrapper .community__right-bar #user-lists .button.selected {
@@ -1018,7 +1018,7 @@
 
 .community .right-side-wrapper .community__right-bar #waitlist .friends.has-requests .header {
     transition: .4s ease-out;
-    background: linear-gradient(310deg,rgba(37, 132, 21, 0.33),rgba(98, 255, 0, 0.1));
+    background: linear-gradient(310deg,rgba(37, 132, 21, 0.25),rgba(98, 255, 0, 0.50));
     box-shadow: inset 0 2px rgba(0, 255, 0, 0.5),inset 0 -2px rgba(0, 255, 0, 0.5)
 }
 
@@ -1027,28 +1027,28 @@
 }
 
 .community .right-side-wrapper .community__right-bar #waitlist .list .user:hover {
-    background: linear-gradient(to right,rgba(199, 63, 63, 0.25),transparent) !important;
-    border-bottom-color: rgba(199, 63, 63, 0.25)
+    background: linear-gradient(to right,rgba(199, 63, 63, 0.75),transparent) !important;
+    border-bottom-color: rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .search {
     background: 0 0;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.25);
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75);
     border-radius: 5px
 }
 
 .community .right-side-wrapper .community__right-bar #rcs-menu .search:focus-within {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #C73F3F,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-header {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #C73F3F,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #C73F3F,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000;
     border-bottom: #C73F3F 1px solid
 }
@@ -1063,18 +1063,18 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.mention {
     border: 0;
     box-shadow: 0 1px 0 0 #C73F3F,0 -1px 0 0 #C73F3F;
-    background: linear-gradient(340deg,rgba(199, 63, 63, 0.25),transparent 80%)
+    background: linear-gradient(340deg,rgba(199, 63, 63, 0.75),transparent 80%)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.mention.role-host {
-    background:linear-gradient(340deg,rgba(199, 63, 63, 0.25),transparent 80%);
+    background:linear-gradient(340deg,rgba(199, 63, 63, 0.75),transparent 80%);
     box-shadow: 0 1px 0 0 #EB3131,0 -1px 0 0 #EB3131
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.id-40796598 {
     margin: 5px 0;
-    background: linear-gradient(90deg,rgba(199, 63, 63, 0.25),transparent);
-    box-shadow: 0 1px 0 0 rgba(199, 63, 63, 0.5),0 -1px 0 0 rgba(199, 63, 63, 0.75)
+    background: linear-gradient(90deg,rgba(199, 63, 63, 0.75),transparent);
+    box-shadow: 0 1px 0 0 rgba(199, 63, 63, 0.75),0 -1px 0 0 rgba(199, 63, 63, 0.75)
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.id-40796598 .badge-box {
@@ -1104,7 +1104,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm.log .msg {
-    background: radial-gradient(rgba(199, 63, 63, 0.25),transparent 70%);
+    background: radial-gradient(rgba(199, 63, 63, 0.75),transparent 75%);
     padding: 10px 5px
 }
 
@@ -1118,8 +1118,8 @@
     border-style: solid;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    background: linear-gradient(30deg,rgba(172, 210, 45, 0.15),transparent 80%);
-    border-color: rgba(172, 210, 45, 0.3)
+    background: linear-gradient(30deg,rgba(172, 210, 45, 0.25),transparent 80%);
+    border-color: rgba(172, 210, 45, 0.50)
 }
     
 .community .right-side-wrapper .community__right-bar #chat #chat-messages .cm .from.dj .un {
@@ -1141,7 +1141,7 @@
 .community .right-side-wrapper .community__right-bar #chat #chat-input {
     transition: all .4s ease-out;
     background-color :transparent !important;
-    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.5) !important;
+    box-shadow: inset 0 0 0 1px rgba(199, 63, 63, 0.75) !important;
     border-radius: 5px;
     height: 28px
 }
@@ -1152,12 +1152,12 @@
 }
 
 #playlist-panel.playlist--override #media-panel .media-list .jspContainer .jspPane .container .row.now-playing {
-    background-color: rgba(199, 63, 63, 0.25) !important;
+    background-color: rgba(199, 63, 63, 0.75) !important;
     border-bottom: 3px solid #C73F3F !important;
 }
 
 #playlist-panel.playlist--override #media-panel .media-list .jspContainer .jspPane .container-fluid .row.now-playing {
-    background-color: rgba(199, 63, 63, 0.25) !important;
+    background-color: rgba(199, 63, 63, 0.75) !important;
     border-bottom: 3px solid #C73F3F !important;
 }
 
@@ -1170,11 +1170,11 @@
 }
 
 .user-level-dropdown:before {
-    border-bottom-color: rgba(63, 105, 199, 0.25)
+    border-bottom-color: rgba(63, 105, 199, 0.75)
 }
 
 .user-profile-dropdown:before {
-    border-bottom-color: rgba(199, 63, 63, 0.25)
+    border-bottom-color: rgba(199, 63, 63, 0.75)
 }
 
 .user-level-dropdown .list-unstyled .user-profile-dropdown__item {
@@ -1227,12 +1227,12 @@
 
 .share-room.arrow-bottom {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 .share-song.arrow-bottom {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    border: 1px solid rgba(199, 63, 63, 0.25) !important
+    border: 1px solid rgba(199, 63, 63, 0.75) !important
 }
 
 .share-room.arrow-bottom:after {
@@ -1244,11 +1244,11 @@
 }
 
 .share-room.arrow-bottom:before {
-    border-top-color: rgba(199, 63, 63, 0.25)
+    border-top-color: rgba(199, 63, 63, 0.75)
 }
 
 .share-song.arrow-bottom:before {
-    border-top-color: rgba(199, 63, 63, 0.25)
+    border-top-color: rgba(199, 63, 63, 0.75)
 }
 
 .community__playlist--desktop {
@@ -1461,27 +1461,27 @@ li.community__player-item.volume {
 }
 
 .community #user-lists {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #header-panel-bar.right-meta {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community #waitlist {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #rcs-menu {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
@@ -1500,7 +1500,7 @@ li.community__player-item.volume {
     display: none;
     width: 100%;
     height: 47px;
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.25),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
     cursor: pointer;
 }
