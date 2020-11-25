@@ -1048,7 +1048,7 @@
 }
 
 .community .right-side-wrapper .community__right-bar #chat #chat-messages {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.8));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8));
     box-shadow: 0 -1px 0 #C73F3F,inset 0 -6px 50px 5px #000,inset 0 -5px 3px #000;
     border-bottom: #C73F3F 1px solid
 }
@@ -1461,7 +1461,7 @@ li.community__player-item.volume {
 }
 
 .community #user-lists {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
@@ -1471,17 +1471,17 @@ li.community__player-item.volume {
 }
 
 .community #waitlist {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 .community .right-side-wrapper .community__right-bar .friends {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
 #rcs-menu {
-    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(199, 63, 63, 0.75),rgba(20, 30, 40, 0.5));
+    background: linear-gradient(90deg,rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.8),rgba(20, 30, 40, 0.5));
     box-shadow: 0 -1px 0 #C73F3F, inset 0 -6px 50px 5px #000, inset 0 -5px 3px #000;
 }
 
