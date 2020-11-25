@@ -245,7 +245,7 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '3.13.7',
+        version: '3.13.8',
         status: false,
         name: 'Foxíček',
         loggedInID: null,
