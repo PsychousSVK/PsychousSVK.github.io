@@ -832,7 +832,7 @@
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner {
-    background-image: url(null) !important
+    background-image: url("https://PsychousSvK.github.io/OFFC/Icons/OFFCplayback.png") !important
 }
 
 .community .left-side-wrapper .left-side-wrapper-inner .community__left-nav {
@@ -1594,3 +1594,16 @@ li.community__player-item.volume {
     visibility: hidden;
 }
 
+.icon-radiant-clearchat {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('https://PsychousSvK.github.io/OFFC/Icons/Clearchat.png') !important;
+}
+
+.icon-radiant-rcsclearchat {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('https://PsychousSvK.github.io/OFFC/Icons/RCSclearchat.png') !important;
+}
