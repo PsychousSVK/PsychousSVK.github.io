@@ -598,7 +598,7 @@
 
 #user-view #user-menu .item:hover {
     background: radial-gradient(rgba(0, 0, 0, 0.8) 40%,rgba(199, 63, 149, 0.25) 250%) !important;
-    border: 1px solid rgba(63, 105, 199, 0.5)
+    border: 1px solid rgba(199, 63, 149, 0.5)
 }
 
 #user-view .dropdown dd .row:hover {
@@ -1602,4 +1602,18 @@ li.community__player-item.volume {
     width: 30px;
     height: 30px;
     background: url('https://PsychousSvK.github.io/OFFC/Icons/RCSclearchat.png') !important;
+}
+
+#user-menu .avatar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    background: #535d80;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#1a1a1a 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#1a1a1a),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#1a1a1a 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#1a1a1a 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#1a1a1a 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#1a1a1a 73%,#736D73 100%);
 }
