@@ -30,8 +30,8 @@
         "user": null
     },
     "images": {
-        "background": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfBurrow.jpg",
-        "playback": "https://PsychousSvK.github.io/WolfsBurrow/Icons/WolfsBurrowPlayback.png",
+        "background": null,
+        "playback": "https://PsychousSvK.github.io/OFFC/Icons/OFFCplayback.png",
         "admin": "https://PsychousSvK.github.io/OFFC/Icons/Admin.png",
         "ambassador": "https://PsychousSvK.github.io/OFFC/Icons/Ambassador.png",
         "sitemod": "https://PsychousSvK.github.io/OFFC/Icons/Sitemoderator.png",
