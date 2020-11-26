@@ -250,7 +250,7 @@
         name: 'Official Bot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
-        cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/FreeRun/Bot/Commands.md',
+        cmdLink: 'https://github.com/PsychousSVK/PsychousSVK.github.io/blob/master/OFFC/Bot/Commands.md',
         chatLink: 'https://psychoussvk.github.io/OFFC/Bot/Lang/Czech.json',
         chat: null,
         loadChat: loadChat,
