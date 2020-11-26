@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://psychoussvk.github.io/FreeRun/Bot/Lang/langIndex.json', function(json) {
+        $.get('https://psychoussvk.github.io/OFFC/Bot/Lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
