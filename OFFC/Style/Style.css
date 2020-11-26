@@ -1737,6 +1737,29 @@ li.community__player-item.volume {
     transition: all .3s;
 }
 
+.rcsslider .bar {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 10px;
+    background: #C73F95 !important;
+}
+
+#user-settings .container .cap .slider .bar {
+    background: #C73F95 !important;
+}
+
+#rcs-menu .group {
+    border-top: 1px solid #C73F95 !important;
+    border-bottom: 1px solid #C73F95 !important;
+}
+
+.rcspdjheader {
+    box-shadow: inset 0 1px 0 0 #C73F95 !important;
+}
+
 #playlist-panel.playlist--override #media-panel .media-list .jspContainer .jspPane .container .row.now-playing {
     background-color: rgba(199, 63, 149, 0.25) !important;
     border-bottom: 3px solid #C73F95 !important;
