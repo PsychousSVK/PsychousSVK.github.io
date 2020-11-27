@@ -1626,6 +1626,23 @@ li.community__player-item.volume {
     background: linear-gradient(to bottom,#805353 0,#4D3232 56%,#281414 73%,#736D6D 100%);
 }
 
+#user-inventory .badges .grid .cell.selected {
+    background: #352828;
+    -webkit-box-shadow: inset 0 0 0 2px #E60000;
+    -moz-box-shadow: inset 0 0 0 2px #E60000;
+    box-shadow: inset 0 0 0 2px #E60000;
+    cursor: default;
+}
+
+#user-inventory .history .list .row .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: rgba(199, 63, 63, 0.25) !important;
+}
+
 .user-content .grid .cell .top {
     position: relative;
     overflow: hidden;
