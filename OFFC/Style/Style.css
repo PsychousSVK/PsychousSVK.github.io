@@ -1628,10 +1628,46 @@ li.community__player-item.volume {
 }
 
 .user-content .grid .cell .top {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
+    background: #7D5380;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+}
+
+#user-store .badges .grid .cell .top {
+    background: #7D5380;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+}
+
+#user-store .badges .grid .cell:hover .top {
+    background: #7D5380;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+}
+
+#user-store .misc .grid .cell .top {
+    background: #7D5380;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+}
+
+#user-store .misc .grid .cell:hover .top {
     background: #7D5380;
     background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
     background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
@@ -1642,10 +1678,6 @@ li.community__player-item.volume {
 }
 
 .user-content .grid .cell:hover .top {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
     background: #7D5380;
     background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
     background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
@@ -1660,6 +1692,16 @@ li.community__player-item.volume {
     overflow: hidden;
     width: 100%;
     height: 250px;
+    background: #7D5380;
+    background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
+    background: -webkit-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -o-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: -ms-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+    background: linear-gradient(to bottom,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
+}
+
+.user-content .grid .cell:hover>.top {
     background: #7D5380;
     background: -moz-linear-gradient(top,#7D5380 0,#4B324D 56%,#281428 73%,#736D73 100%);
     background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#7D5380),color-stop(56%,#4B324D),color-stop(73%,#281428),color-stop(100%,#736D73));
@@ -1727,6 +1769,33 @@ li.community__player-item.volume {
     border-top: 1px solid #C73F95 !important;
     border-bottom: 1px solid #C73F95 !important;
 }
+
+#user-lists .header {
+    border-bottom: #C73F95 1px solid;
+}
+
+#waitlist .header {
+    border-bottom: #C73F95 1px solid;
+}
+
+#user-lists .list-header {
+    border-bottom: #C73F95 1px solid;
+}
+
+.community .friends .list-header {
+    border-bottom: #C73F95 1px solid;
+}
+
+.header-panel-button {
+    border-right: #C73F95 1px solid;
+}
+
+#rcs-menu .header {
+    border-bottom: #C73F95 1px solid;
+}
+
+#playlist-panel.playlist--override #playlist-menu .menu .row {
+    border-top: 1px solid rgba(199, 63, 149, 1);
 
 .rcspdjheader {
     box-shadow: inset 0 1px 0 0 #C73F95 !important;
